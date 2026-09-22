@@ -1,0 +1,84 @@
+{
+  "source_hashes": {
+    "raw/small-business/employees-by-size-2025.xlsx": "25724033128b3a89c17983b597d1745a9cf8d05361e57676d07f0dd99865ed4b",
+    "raw/small-business/sales-costs-by-size-2025.xlsx": "2ce248e3d1a32afdb6aa3557b1483aac27c7742c564c5956abb9af6153e03dab"
+  },
+  "corporations_total": 1701437,
+  "size_counts_sum": 1701437,
+  "counts_agree_between_two_tables": true,
+  "sales_million_yen": 108642469.197,
+  "costs_and_profit_sum_million_yen": 108642469.197,
+  "cost_identity_error_million_yen": 0.0,
+  "observations": [
+    {
+      "chart_id": "corporations-by-size",
+      "category": "5人以下",
+      "raw_numerator": 1134765,
+      "raw_denominator": 1701437,
+      "value": 66.69,
+      "unit": "percent",
+      "source_cell": "M7",
+      "source_id": "small-business-employees"
+    },
+    {
+      "chart_id": "corporations-by-size",
+      "category": "6〜20人",
+      "raw_numerator": 366437,
+      "raw_denominator": 1701437,
+      "value": 21.54,
+      "unit": "percent",
+      "source_cell": "N7",
+      "source_id": "small-business-employees"
+    },
+    {
+      "chart_id": "corporations-by-size",
+      "category": "21〜50人",
+      "raw_numerator": 121673,
+      "raw_denominator": 1701437,
+      "value": 7.15,
+      "unit": "percent",
+      "source_cell": "O7",
+      "source_id": "small-business-employees"
+    },
+    {
+      "chart_id": "corporations-by-size",
+      "category": "51人以上",
+      "raw_numerator": 78562,
+      "raw_denominator": 1701437,
+      "value": 4.62,
+      "unit": "percent",
+      "source_cell": "P7",
+      "source_id": "small-business-employees"
+    },
+    {
+      "chart_id": "small-corporation-costs",
+      "category": "売上原価",
+      "raw_numerator": 75108967.656,
+      "raw_denominator": 108642469.197,
+      "value": 69.13,
+      "unit": "percent",
+      "source_cell": "M10",
+      "source_id": "small-business-sales-costs"
+    },
+    {
+      "chart_id": "small-corporation-costs",
+      "category": "販売費・一般管理費",
+      "raw_numerator": 30278752.875,
+      "raw_denominator": 108642469.197,
+      "value": 27.87,
+      "unit": "percent",
+      "source_cell": "M18",
+      "source_id": "small-business-sales-costs"
+    },
+    {
+      "chart_id": "small-corporation-costs",
+      "category": "営業利益",
+      "raw_numerator": 3254748.666,
+      "raw_denominator": 108642469.197,
+      "value": 3.0,
+      "unit": "percent",
+      "source_cell": "M27",
+      "source_id": "small-business-sales-costs"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "local_path": "raw/small-business/employees-by-size-2025.xlsx",
+    "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040470280&fileKind=0",
+    "sha256": "25724033128b3a89c17983b597d1745a9cf8d05361e57676d07f0dd99865ed4b",
+    "retrieved_at": "2026-09-22T13:49:48.490260+00:00",
+    "bytes": 45703
+  },
+  {
+    "local_path": "raw/small-business/sales-costs-by-size-2025.xlsx",
+    "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040470290&fileKind=0",
+    "sha256": "2ce248e3d1a32afdb6aa3557b1483aac27c7742c564c5956abb9af6153e03dab",
+    "retrieved_at": "2026-09-22T13:49:49.165872+00:00",
+    "bytes": 47488
+  }
+]

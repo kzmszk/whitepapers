@@ -1,0 +1,613 @@
+{
+  "id": "energy",
+  "title": "電気を安定して、無理のない価格で使い続けるには？",
+  "subtitle": "安全・供給・費用・環境を、別々の指標で確かめる。",
+  "whitepaper_label": "エネルギー白書2025",
+  "edition_note": "資源エネルギー庁。確認できた白書は2025年版。2026年版の刊行は未確認。下の統計は2026年4月14日の2024年度確報に基づき、白書掲載時点とは区別。",
+  "lead": "電気や燃料は、家庭にも工場にも欠かせません。白書は、輸入燃料への依存、国際情勢の変化、脱炭素、今後の電力需要を一緒に捉えています。安全を前提に、供給の安定、費用、環境をどう両立させるか。その考え方を読み、実際の自給率や排出量を確かめます。",
+  "sections": [
+    {
+      "heading": "海外の燃料に頼る構造を、どう変えるか",
+      "kind": "policy",
+      "paragraphs": [
+        "日本はエネルギー資源に乏しく、化石燃料の多くを輸入に頼っています。白書は、紛争や中東情勢、国際価格の高騰によって、安定供給と価格の両面で弱点が表れると捉えています。",
+        "エネルギー自給率は、その構造を確認する指標の一つです。ただし、自給率が上がっただけで停電や調達のリスクがなくなるわけではありません。燃料の調達先、設備、送電網なども関わります。"
+      ],
+      "source_ids": [
+        "energy-policy"
+      ]
+    },
+    {
+      "heading": "安全を前提に、三つの目的を考える",
+      "kind": "policy",
+      "paragraphs": [
+        "白書が掲げるS＋3Eは、安全性を大前提に、安定供給を第一とし、経済効率性と環境への適合を図る考え方です。「必要なときに使える」「費用を抑える」「排出を減らす」を、一緒に考えます。",
+        "特定の電源や燃料に過度に依存しない構成を目指し、徹底した省エネと、再エネ・原子力などの脱炭素電源の活用を組み合わせる方向が示されています。"
+      ],
+      "source_ids": [
+        "energy-policy"
+      ]
+    },
+    {
+      "heading": "電源と、工場・データセンターの場所を結びつける",
+      "kind": "policy",
+      "paragraphs": [
+        "DXやGXに伴う電力需要の増加を見込み、白書は必要な脱炭素電源の確保を成長と競争力の問題としても扱っています。GXは、脱炭素に向けて産業やエネルギーの仕組みを変える取組です。",
+        "通信と電力の連携を考える「ワット・ビット連携」もその一つです。電源・送電網とデータセンターの立地を合わせて考え、電力を必要とする産業の活動を支えようとしています。これは将来の方向であり、需要予測を実績とは区別して読む必要があります。"
+      ],
+      "source_ids": [
+        "energy-gx",
+        "energy-location"
+      ]
+    },
+    {
+      "heading": "福島の復興と、安全への信頼も重要な課題",
+      "kind": "policy",
+      "paragraphs": [
+        "白書は福島の復興を第1部第1章に置き、廃炉、生活の再建、産業の復興などを扱います。発電量や価格だけを追っていては、この課題を捉えられません。",
+        "エネルギーの選択は設備の性能だけでなく、立地する地域や事故の影響を受けた人々の生活にも関わります。復興の取組の進捗は、自給率や排出量とは別に確認する必要があります。"
+      ],
+      "source_ids": [
+        "energy-fukushima"
+      ]
+    },
+    {
+      "heading": "使う量が減った理由を、一段掘り下げる",
+      "kind": "editorial",
+      "paragraphs": [
+        "エネルギー消費が減る背景には、省エネのほか、生産量、天候、人口、移動の変化などがあります。部門別のグラフから、どこで変化が起きたかを見た上で、活動量と照らし合わせます。",
+        "CO₂排出量も、消費量と燃料・電源の構成の両方で変わります。ここではエネルギー起源CO₂を扱い、森林の吸収や他の温室効果ガスを含む総排出量とは区別しています。"
+      ],
+      "source_ids": [
+        "energy-stat-summary"
+      ]
+    },
+    {
+      "heading": "家計の価格と、海外への支払いは別々に動く",
+      "kind": "editorial",
+      "paragraphs": [
+        "燃料輸入額には価格・為替・輸入量が関わります。家庭のエネルギー価格には料金改定や補助制度なども関わり、輸入額と同じ動きになるとは限りません。",
+        "家計が実際に払う金額には使用量も必要です。価格指数だけで支出の増減を断定せず、トップページの比較画面では、輸入額と価格指数それぞれの変化を調べられるようにしています。"
+      ],
+      "source_ids": [
+        "energy-policy"
+      ]
+    }
+  ],
+  "flow": [
+    {
+      "title": "課題",
+      "text": "輸入依存と供給・価格の不安、脱炭素と電力需要"
+    },
+    {
+      "title": "対応",
+      "text": "安全を前提に、省エネと電源・産業の投資を組み合わせる"
+    },
+    {
+      "title": "目指す姿",
+      "text": "安定供給・経済成長・脱炭素の同時実現"
+    }
+  ],
+  "charts": [
+    {
+      "id": "self-sufficiency",
+      "title": "エネルギー自給率は、どこまで戻った？",
+      "question": "国内で確保できるエネルギーの比率を、同じ定義で見る。",
+      "type": "line",
+      "unit": "%",
+      "period_type": "fiscal_year",
+      "period_label": "年度（4月〜翌3月）",
+      "periods": [
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "series": [
+        {
+          "id": "self-sufficiency-iea",
+          "label": "エネルギー自給率（IEAベース）",
+          "values": [
+            20.2,
+            11.5,
+            6.7,
+            6.5,
+            6.3,
+            7.3,
+            8.0,
+            9.5,
+            11.7,
+            12.1,
+            11.3,
+            13.3,
+            12.6,
+            15.3,
+            16.3
+          ],
+          "source_ids": [
+            "energy-stat-summary"
+          ]
+        }
+      ],
+      "notes": [
+        "2026年4月14日公表版の小数1桁の掲載値。PDF表から抽出したもので、原表からの自給率再計算ではない。",
+        "高位発熱量の国内産出÷一次供給とIEAベース自給率は定義が異なる。混ぜて比較しない。",
+        "IEAの定義では原子力を国内産出に含む。原子力燃料を国内で採掘しているという意味ではない。"
+      ],
+      "derivation": "需給実績確報概要PDF7頁の「エネルギー自給率(IEAベース)」2010〜2024年度の掲載値を抽出。",
+      "takeaway": "2024年度は16.3%。調達の安定性を考える入口になるが、備蓄・輸入先・送電網などのリスクをこの値だけで評価できない。"
+    },
+    {
+      "id": "emissions",
+      "title": "エネルギー起源のCO₂は、どう変わった？",
+      "question": "統計の炭素収支から排出量を再計算する。",
+      "type": "line",
+      "unit": "百万t-CO₂",
+      "period_type": "fiscal_year",
+      "period_label": "年度（4月〜翌3月）",
+      "periods": [
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "series": [
+        {
+          "id": "energy-co2",
+          "label": "エネルギー起源CO₂排出量",
+          "values": [
+            1136.944412005553,
+            1188.0046866890552,
+            1227.2625996148486,
+            1235.3729068825387,
+            1185.180457971914,
+            1145.8045035909083,
+            1126.1159491694693,
+            1109.4672223821262,
+            1063.9702733272136,
+            1028.3791447987514,
+            968.0321412377999,
+            987.0291070987005,
+            960.9598746409072,
+            921.7224367411841,
+            906.627011539783
+          ],
+          "source_ids": [
+            "energy-balance-2010",
+            "energy-balance-2011",
+            "energy-balance-2012",
+            "energy-balance-2013",
+            "energy-balance-2014",
+            "energy-balance-2015",
+            "energy-balance-2016",
+            "energy-balance-2017",
+            "energy-balance-2018",
+            "energy-balance-2019",
+            "energy-balance-2020",
+            "energy-balance-2021",
+            "energy-balance-2022",
+            "energy-balance-2023",
+            "energy-balance-2024"
+          ]
+        }
+      ],
+      "notes": [
+        "エネルギー起源CO₂。非エネルギー起源CO₂、他の温室効果ガス、森林等の吸収は含めない。",
+        "排出量の減少には活動量と燃料・電源構成の変化等が関わる。特定の政策の効果を示す比較ではない。",
+        "2023年度から標準発熱量・炭素排出係数の改訂がある。"
+      ],
+      "derivation": "各年度の炭素単位表で、エネルギー利用の最終消費(#19/$1401)からエネルギー転換(#08/$1401、負値)を差し引き、千tC×44/12÷1000で百万t-CO₂に換算。15年度を概要PDF8頁の丸め値と±0.5以内で照合。",
+      "takeaway": "2013年度から2024年度の減少は26.6%。2024年度は約906.6百万t-CO₂。原表の丸め前の値から計算している。"
+    },
+    {
+      "id": "consumption",
+      "title": "どこでエネルギーを使っている？",
+      "question": "企業・家庭・交通で、消費の動きは同じか。",
+      "type": "line",
+      "unit": "PJ",
+      "period_type": "fiscal_year",
+      "period_label": "年度（4月〜翌3月）",
+      "periods": [
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "series": [
+        {
+          "id": "final_consumption_industry_business",
+          "label": "企業・事業所他",
+          "values": [
+            9173.63656761586,
+            8937.245564963821,
+            8733.295972885864,
+            8783.58176130383,
+            8522.540431923375,
+            8454.98974409974,
+            8339.018560281871,
+            8394.824893563478,
+            8356.07978717194,
+            8136.610142776125,
+            7480.130597798979,
+            7747.503303999343,
+            7259.91646061867,
+            7032.374233181975,
+            6844.403812766694
+          ],
+          "source_ids": [
+            "energy-balance-2010",
+            "energy-balance-2011",
+            "energy-balance-2012",
+            "energy-balance-2013",
+            "energy-balance-2014",
+            "energy-balance-2015",
+            "energy-balance-2016",
+            "energy-balance-2017",
+            "energy-balance-2018",
+            "energy-balance-2019",
+            "energy-balance-2020",
+            "energy-balance-2021",
+            "energy-balance-2022",
+            "energy-balance-2023",
+            "energy-balance-2024"
+          ]
+        },
+        {
+          "id": "final_consumption_households",
+          "label": "家庭",
+          "values": [
+            2131.311586816666,
+            2033.1775957305342,
+            2069.9972132732696,
+            2045.3362170516243,
+            1983.5026552334803,
+            1899.2697297603943,
+            1873.84278084247,
+            1970.4172313998529,
+            1783.9407613801968,
+            1796.8632607550335,
+            1910.440062909043,
+            1813.5373620755809,
+            1778.0390907210017,
+            1696.8757770669474,
+            1697.1787300688766
+          ],
+          "source_ids": [
+            "energy-balance-2010",
+            "energy-balance-2011",
+            "energy-balance-2012",
+            "energy-balance-2013",
+            "energy-balance-2014",
+            "energy-balance-2015",
+            "energy-balance-2016",
+            "energy-balance-2017",
+            "energy-balance-2018",
+            "energy-balance-2019",
+            "energy-balance-2020",
+            "energy-balance-2021",
+            "energy-balance-2022",
+            "energy-balance-2023",
+            "energy-balance-2024"
+          ]
+        },
+        {
+          "id": "final_consumption_transport",
+          "label": "運輸",
+          "values": [
+            3382.3165484115952,
+            3314.792298566246,
+            3328.9061228548117,
+            3235.630160193433,
+            3164.645903303735,
+            3148.2754358181946,
+            3124.6200676885533,
+            3100.411848421366,
+            3063.9635813096747,
+            3003.3292000128554,
+            2673.828289019535,
+            2692.009250587822,
+            2792.0318800408495,
+            2780.2091543313945,
+            2738.852563875486
+          ],
+          "source_ids": [
+            "energy-balance-2010",
+            "energy-balance-2011",
+            "energy-balance-2012",
+            "energy-balance-2013",
+            "energy-balance-2014",
+            "energy-balance-2015",
+            "energy-balance-2016",
+            "energy-balance-2017",
+            "energy-balance-2018",
+            "energy-balance-2019",
+            "energy-balance-2020",
+            "energy-balance-2021",
+            "energy-balance-2022",
+            "energy-balance-2023",
+            "energy-balance-2024"
+          ]
+        }
+      ],
+      "notes": [
+        "PJはエネルギー量の単位。最終消費であり発電量ではない。非エネルギー利用を含む。",
+        "消費減には省エネ以外に天候・生産活動・人口・移動なども影響する。"
+      ],
+      "derivation": "各年度エネルギー単位表の#20企業・事業所他、#33家庭、#34運輸の$1400（TJ）を1000で割りPJへ。3部門合計と#19最終消費の一致を各年で検査。",
+      "takeaway": "2024年度の最終消費は、企業・事業所他6,844.4 PJ、家庭1,697.2 PJ、運輸2,738.9 PJ。人数や生産量が違うので、部門間の効率の順位を示す数字ではない。"
+    }
+  ],
+  "outcomes": [
+    {
+      "title": "供給の安定",
+      "text": "自給率に加え、調達先の集中、備蓄、設備・送電網の状況を確認する。自給率は供給リスクの全体を示さない。"
+    },
+    {
+      "title": "費用と暮らし",
+      "text": "価格指数と使用量・支出を分ける。トップの比較画面で輸入額とエネルギーCPIを操作できる。"
+    },
+    {
+      "title": "環境と安全",
+      "text": "排出量の減少を、活動量・燃料構成と照合する。安全と復興の進捗は別の資料で確認する。"
+    }
+  ],
+  "questions": [
+    "排出が減ったのは、使う量が減ったため？それとも燃料や電源が変わったため？",
+    "家庭と企業で、消費の動きが違うのはなぜ？"
+  ],
+  "sources": [
+    {
+      "id": "energy-policy",
+      "title": "エネルギー白書2025 日本のエネルギー政策",
+      "publisher": "資源エネルギー庁",
+      "url": "https://www.enecho.meti.go.jp/about/whitepaper/2025/html/2-0-0.html",
+      "locator": "第2部 はじめに。公式検索本文を確認、HTML原本は取得経路で403",
+      "kind": "whitepaper",
+      "local_path": null,
+      "retrieved_at": "2026-09-22",
+      "sha256": null
+    },
+    {
+      "id": "energy-gx",
+      "title": "エネルギー白書2025 GXと日本の取組",
+      "publisher": "資源エネルギー庁",
+      "url": "https://www.enecho.meti.go.jp/about/whitepaper/2025/html/1-2-0.html",
+      "locator": "第1部第2章。公式検索本文を確認、HTML原本は取得経路で403",
+      "kind": "whitepaper",
+      "local_path": null,
+      "retrieved_at": "2026-09-22",
+      "sha256": null
+    },
+    {
+      "id": "energy-location",
+      "title": "DX・GXを踏まえたエネルギー・産業政策",
+      "publisher": "資源エネルギー庁",
+      "url": "https://www.enecho.meti.go.jp/about/whitepaper/2025/html/1-2-2.html",
+      "locator": "第1部第2章第2節：ワット・ビット連携",
+      "kind": "whitepaper",
+      "local_path": null,
+      "retrieved_at": "2026-09-22",
+      "sha256": null
+    },
+    {
+      "id": "energy-fukushima",
+      "title": "エネルギー白書2025 福島復興の進捗",
+      "publisher": "資源エネルギー庁",
+      "url": "https://www.enecho.meti.go.jp/about/whitepaper/2025/html/1-1-0.html",
+      "locator": "第1部第1章。章立て・概要で確認、本文全体の原本取得は未了",
+      "kind": "whitepaper",
+      "local_path": null,
+      "retrieved_at": "2026-09-22",
+      "sha256": null
+    },
+    {
+      "id": "energy-stat-summary",
+      "title": "2024年度エネルギー需給実績（確報）概要",
+      "publisher": "資源エネルギー庁（e-Stat掲載）",
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040391289&fileKind=2",
+      "locator": "2026年4月14日公表。PDF7頁自給率、8頁CO₂、2・6頁最終消費",
+      "kind": "original_statistics",
+      "local_path": "raw/energy/energy-supply-demand-2024-summary.pdf",
+      "retrieved_at": "2026-09-22",
+      "sha256": "bd6f33b998aa00897692cec5e90a3906b98935733edbdba0a472742f994f8d7f"
+    },
+    {
+      "id": "energy-balance-2010",
+      "title": "総合エネルギー統計 2010年度 簡易表",
+      "publisher": "資源エネルギー庁（e-Stat掲載）",
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040189526&fileKind=0",
+      "locator": "2026-04-14改訂。炭素単位表#19・#08の$1401、エネルギー単位表の最終消費",
+      "kind": "original_statistics",
+      "local_path": "raw/energy/energy-balance-2010-simple.xlsx",
+      "sha256": "ff585fa099c3b8d74ee0c54f28c9997d4886b3a1e2d68ac90550b1bf2dc29c27",
+      "retrieved_at": "2026-09-22T09:55:20.713758+00:00"
+    },
+    {
+      "id": "energy-balance-2011",
+      "title": "総合エネルギー統計 2011年度 簡易表",
+      "publisher": "資源エネルギー庁（e-Stat掲載）",
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040188195&fileKind=0",
+      "locator": "2026-04-14改訂。炭素単位表#19・#08の$1401、エネルギー単位表の最終消費",
+      "kind": "original_statistics",
+      "local_path": "raw/energy/energy-balance-2011-simple.xlsx",
+      "sha256": "2bd18f82de1783c16f157bc5dfa77dd4f70eaecb3b99e0344d1cc0f05a66d7d0",
+      "retrieved_at": "2026-09-22T09:55:20.721321+00:00"
+    },
+    {
+      "id": "energy-balance-2012",
+      "title": "総合エネルギー統計 2012年度 簡易表",
+      "publisher": "資源エネルギー庁（e-Stat掲載）",
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040188193&fileKind=0",
+      "locator": "2026-04-14改訂。炭素単位表#19・#08の$1401、エネルギー単位表の最終消費",
+      "kind": "original_statistics",
+      "local_path": "raw/energy/energy-balance-2012-simple.xlsx",
+      "sha256": "f5a6246a46476d4ea67899a4e2ed61426a988fc15d4824daee8fa4d6ffcefb12",
+      "retrieved_at": "2026-09-22T09:55:20.410551+00:00"
+    },
+    {
+      "id": "energy-balance-2013",
+      "title": "総合エネルギー統計 2013年度 簡易表",
+      "publisher": "資源エネルギー庁（e-Stat掲載）",
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040188190&fileKind=0",
+      "locator": "2026-04-14改訂。炭素単位表#19・#08の$1401、エネルギー単位表の最終消費",
+      "kind": "original_statistics",
+      "local_path": "raw/energy/energy-balance-2013-simple.xlsx",
+      "sha256": "db238adf8d707146f6778a9e14e2c9c6ac00b6349599832c56f1cd51d4f0fda3",
+      "retrieved_at": "2026-09-22T09:55:20.376428+00:00"
+    },
+    {
+      "id": "energy-balance-2014",
+      "title": "総合エネルギー統計 2014年度 簡易表",
+      "publisher": "資源エネルギー庁（e-Stat掲載）",
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040188189&fileKind=0",
+      "locator": "2026-04-14改訂。炭素単位表#19・#08の$1401、エネルギー単位表の最終消費",
+      "kind": "original_statistics",
+      "local_path": "raw/energy/energy-balance-2014-simple.xlsx",
+      "sha256": "3e89d6a3c34f49df938c51b23f3b200e1471a636df6e26d30e841547ad241729",
+      "retrieved_at": "2026-09-22T09:55:20.317605+00:00"
+    },
+    {
+      "id": "energy-balance-2015",
+      "title": "総合エネルギー統計 2015年度 簡易表",
+      "publisher": "資源エネルギー庁（e-Stat掲載）",
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040188185&fileKind=0",
+      "locator": "2026-04-14改訂。炭素単位表#19・#08の$1401、エネルギー単位表の最終消費",
+      "kind": "original_statistics",
+      "local_path": "raw/energy/energy-balance-2015-simple.xlsx",
+      "sha256": "520bf4073007eb1f8b975a38c2083cbf534b4a50f9e3d7714eccd3ed274b6e8e",
+      "retrieved_at": "2026-09-22T09:55:20.323260+00:00"
+    },
+    {
+      "id": "energy-balance-2016",
+      "title": "総合エネルギー統計 2016年度 簡易表",
+      "publisher": "資源エネルギー庁（e-Stat掲載）",
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040188183&fileKind=0",
+      "locator": "2026-04-14改訂。炭素単位表#19・#08の$1401、エネルギー単位表の最終消費",
+      "kind": "original_statistics",
+      "local_path": "raw/energy/energy-balance-2016-simple.xlsx",
+      "sha256": "9bb42e93fbf7f03925173a7b02ada727717ca7f82670fd904d6ee33a7caf5f0c",
+      "retrieved_at": "2026-09-22T09:55:20.032124+00:00"
+    },
+    {
+      "id": "energy-balance-2017",
+      "title": "総合エネルギー統計 2017年度 簡易表",
+      "publisher": "資源エネルギー庁（e-Stat掲載）",
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040188181&fileKind=0",
+      "locator": "2026-04-14改訂。炭素単位表#19・#08の$1401、エネルギー単位表の最終消費",
+      "kind": "original_statistics",
+      "local_path": "raw/energy/energy-balance-2017-simple.xlsx",
+      "sha256": "10a4333904575931360126569b051e17ab249272ead922fa0545a6dc8b5ca980",
+      "retrieved_at": "2026-09-22T09:55:19.957423+00:00"
+    },
+    {
+      "id": "energy-balance-2018",
+      "title": "総合エネルギー統計 2018年度 簡易表",
+      "publisher": "資源エネルギー庁（e-Stat掲載）",
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000031964212&fileKind=0",
+      "locator": "2026-04-14改訂。炭素単位表#19・#08の$1401、エネルギー単位表の最終消費",
+      "kind": "original_statistics",
+      "local_path": "raw/energy/energy-balance-2018-simple.xlsx",
+      "sha256": "1d5cfc01375d816f5f6903d2d638aec523566ba69eb24a28b79d08286772f86f",
+      "retrieved_at": "2026-09-22T09:55:19.945296+00:00"
+    },
+    {
+      "id": "energy-balance-2019",
+      "title": "総合エネルギー統計 2019年度 簡易表",
+      "publisher": "資源エネルギー庁（e-Stat掲載）",
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032039650&fileKind=0",
+      "locator": "2026-04-14改訂。炭素単位表#19・#08の$1401、エネルギー単位表の最終消費",
+      "kind": "original_statistics",
+      "local_path": "raw/energy/energy-balance-2019-simple.xlsx",
+      "sha256": "f751bf3b6f30a7bf685d69a11fd4d63ec1f06ddad78805a1a9b6ff8150adab65",
+      "retrieved_at": "2026-09-22T09:55:19.938006+00:00"
+    },
+    {
+      "id": "energy-balance-2020",
+      "title": "総合エネルギー統計 2020年度 簡易表",
+      "publisher": "資源エネルギー庁（e-Stat掲載）",
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032190958&fileKind=0",
+      "locator": "2026-04-14改訂。炭素単位表#19・#08の$1401、エネルギー単位表の最終消費",
+      "kind": "original_statistics",
+      "local_path": "raw/energy/energy-balance-2020-simple.xlsx",
+      "sha256": "5a1e753de3cc74e311a864d6d1aaa4997689f2b978e8768410db598f81f61e7c",
+      "retrieved_at": "2026-09-22T09:55:19.562357+00:00"
+    },
+    {
+      "id": "energy-balance-2021",
+      "title": "総合エネルギー統計 2021年度 簡易表",
+      "publisher": "資源エネルギー庁（e-Stat掲載）",
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040054160&fileKind=0",
+      "locator": "2026-04-14改訂。炭素単位表#19・#08の$1401、エネルギー単位表の最終消費",
+      "kind": "original_statistics",
+      "local_path": "raw/energy/energy-balance-2021-simple.xlsx",
+      "sha256": "53d299bec9e9beb4163f7a25074cae59c46dd19387f4f21b7313007c25b4a266",
+      "retrieved_at": "2026-09-22T09:55:19.551139+00:00"
+    },
+    {
+      "id": "energy-balance-2022",
+      "title": "総合エネルギー統計 2022年度 簡易表",
+      "publisher": "資源エネルギー庁（e-Stat掲載）",
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040125366&fileKind=0",
+      "locator": "2026-04-14改訂。炭素単位表#19・#08の$1401、エネルギー単位表の最終消費",
+      "kind": "original_statistics",
+      "local_path": "raw/energy/energy-balance-2022-simple.xlsx",
+      "sha256": "0f220e15f60edbbd0e6879e6c92a40ce2ba40319f0d2a2c9bb74edb8af850ba4",
+      "retrieved_at": "2026-09-22T09:55:19.599564+00:00"
+    },
+    {
+      "id": "energy-balance-2023",
+      "title": "総合エネルギー統計 2023年度 簡易表",
+      "publisher": "資源エネルギー庁（e-Stat掲載）",
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040226474&fileKind=0",
+      "locator": "2026-04-14改訂。炭素単位表#19・#08の$1401、エネルギー単位表の最終消費",
+      "kind": "original_statistics",
+      "local_path": "raw/energy/energy-balance-2023-simple.xlsx",
+      "sha256": "42c29802a859eeea3123ac87e2b948303c6be30bfd5d362747bde5d72f92d1ed",
+      "retrieved_at": "2026-09-22T09:55:19.566375+00:00"
+    },
+    {
+      "id": "energy-balance-2024",
+      "title": "総合エネルギー統計 2024年度 簡易表",
+      "publisher": "資源エネルギー庁（e-Stat掲載）",
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040391290&fileKind=0",
+      "locator": "2026-04-14改訂。炭素単位表#19・#08の$1401、エネルギー単位表の最終消費",
+      "kind": "original_statistics",
+      "local_path": "raw/energy/energy-balance-2024-simple.xlsx",
+      "sha256": "816d7d3e5933ffe94b0cbd7b47fa7fa232fb98fbed2a610f4928c4aa7a2d2008",
+      "retrieved_at": "2026-09-22T09:55:19.162995+00:00"
+    }
+  ]
+}

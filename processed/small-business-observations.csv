@@ -1,0 +1,8 @@
+chart_id,category,raw_numerator,raw_denominator,value,unit,source_cell,source_id
+corporations-by-size,5人以下,1134765,1701437,66.69,percent,M7,small-business-employees
+corporations-by-size,6〜20人,366437,1701437,21.54,percent,N7,small-business-employees
+corporations-by-size,21〜50人,121673,1701437,7.15,percent,O7,small-business-employees
+corporations-by-size,51人以上,78562,1701437,4.62,percent,P7,small-business-employees
+small-corporation-costs,売上原価,75108967.656,108642469.197,69.13,percent,M10,small-business-sales-costs
+small-corporation-costs,販売費・一般管理費,30278752.875,108642469.197,27.87,percent,M18,small-business-sales-costs
+small-corporation-costs,営業利益,3254748.666,108642469.197,3.0,percent,M27,small-business-sales-costs

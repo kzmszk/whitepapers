@@ -1,0 +1,30 @@
+[
+  {
+    "local_path": "raw/trade-article/mof-middleeast-products-import-annual.csv",
+    "url": "https://www.customs.go.jp/toukei/suii/html/data/d62ca007.csv",
+    "sha256": "4387bfd8eb071c96bfc4f740d50f1579c3b3af5c496e5b8f3076f32ac5ee441b",
+    "retrieved_at": "2026-09-22T13:49:37.668054+00:00",
+    "bytes": 30809
+  },
+  {
+    "local_path": "raw/trade-article/mof-middleeast-countries-annual.csv",
+    "url": "https://www.customs.go.jp/toukei/suii/html/data/d42ca007.csv",
+    "sha256": "1c79902a27f7ccea585cb72051a189bfc276079e9cdd02bff2647321e00c67af",
+    "retrieved_at": "2026-09-22T13:49:37.886669+00:00",
+    "bytes": 16314
+  },
+  {
+    "local_path": "raw/trade-article/customs-annual-index.html",
+    "url": "https://www.customs.go.jp/toukei/suii/html/time.htm",
+    "sha256": "0aebd09762e44bacb0f0de60928084a8887c0ea40df626b8c26527ab25275fb9",
+    "retrieved_at": "2026-09-22T13:49:38.013893+00:00",
+    "bytes": 16521
+  },
+  {
+    "local_path": "raw/trade-article/customs-statistics-faq.html",
+    "url": "https://www.customs.go.jp/toukei/sankou/howto/faq.htm",
+    "sha256": "b2c632155673aa601bdb363389bb5fbcddaf6f7374e0dbf923575ef5e1d18d4f",
+    "retrieved_at": "2026-09-22T13:50:54.536250+00:00",
+    "bytes": 47970
+  }
+]

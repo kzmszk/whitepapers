@@ -1,0 +1,37 @@
+[
+  {
+    "id": "energy",
+    "sections": 6,
+    "charts": 3,
+    "sources": 20,
+    "observations": 75
+  },
+  {
+    "id": "wages",
+    "sections": 6,
+    "charts": 1,
+    "sources": 4,
+    "observations": 8
+  },
+  {
+    "id": "industry",
+    "sections": 6,
+    "charts": 2,
+    "sources": 4,
+    "observations": 48
+  },
+  {
+    "id": "trade",
+    "sections": 6,
+    "charts": 2,
+    "sources": 7,
+    "observations": 14
+  },
+  {
+    "id": "small-business",
+    "sections": 6,
+    "charts": 2,
+    "sources": 4,
+    "observations": 7
+  }
+]

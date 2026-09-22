@@ -1,0 +1,82 @@
+{
+  "carbon_balance_checks": [
+    {
+      "fiscal_year": 2010,
+      "computed_MtCO2": 1136.944412005553,
+      "published_rounded_MtCO2": 1137.0
+    },
+    {
+      "fiscal_year": 2011,
+      "computed_MtCO2": 1188.0046866890552,
+      "published_rounded_MtCO2": 1188.0
+    },
+    {
+      "fiscal_year": 2012,
+      "computed_MtCO2": 1227.2625996148486,
+      "published_rounded_MtCO2": 1227.0
+    },
+    {
+      "fiscal_year": 2013,
+      "computed_MtCO2": 1235.3729068825387,
+      "published_rounded_MtCO2": 1235.0
+    },
+    {
+      "fiscal_year": 2014,
+      "computed_MtCO2": 1185.180457971914,
+      "published_rounded_MtCO2": 1185.0
+    },
+    {
+      "fiscal_year": 2015,
+      "computed_MtCO2": 1145.8045035909083,
+      "published_rounded_MtCO2": 1146.0
+    },
+    {
+      "fiscal_year": 2016,
+      "computed_MtCO2": 1126.1159491694693,
+      "published_rounded_MtCO2": 1126.0
+    },
+    {
+      "fiscal_year": 2017,
+      "computed_MtCO2": 1109.4672223821262,
+      "published_rounded_MtCO2": 1109.0
+    },
+    {
+      "fiscal_year": 2018,
+      "computed_MtCO2": 1063.9702733272136,
+      "published_rounded_MtCO2": 1064.0
+    },
+    {
+      "fiscal_year": 2019,
+      "computed_MtCO2": 1028.3791447987514,
+      "published_rounded_MtCO2": 1028.0
+    },
+    {
+      "fiscal_year": 2020,
+      "computed_MtCO2": 968.0321412377999,
+      "published_rounded_MtCO2": 968.0
+    },
+    {
+      "fiscal_year": 2021,
+      "computed_MtCO2": 987.0291070987005,
+      "published_rounded_MtCO2": 987.0
+    },
+    {
+      "fiscal_year": 2022,
+      "computed_MtCO2": 960.9598746409072,
+      "published_rounded_MtCO2": 961.0
+    },
+    {
+      "fiscal_year": 2023,
+      "computed_MtCO2": 921.7224367411841,
+      "published_rounded_MtCO2": 922.0
+    },
+    {
+      "fiscal_year": 2024,
+      "computed_MtCO2": 906.627011539783,
+      "published_rounded_MtCO2": 907.0
+    }
+  ],
+  "self_sufficiency_2024": 16.3,
+  "co2_formula": "(#19/$1401 - #08/$1401) * 44/12 / 1000",
+  "sector_sums_checked": 15
+}
