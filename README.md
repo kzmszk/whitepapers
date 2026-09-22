@@ -64,19 +64,21 @@ python3 scripts/verify_articles.py
 | `scripts/` | 原本からの再生成・検査処理 |
 | `verification/` | 独立データレビュー、ブラウザ操作で保存したCSV/JSON、検証記録 |
 
-## Cloudflareへの公開準備
+## Cloudflareへの公開
 
 Durable Objectsへのリクエストは発生しません。D1・R2・外部APIへのブラウザ接続もありません。
 
 `wrangler.jsonc` は `prototype/` だけをWorkers Static Assetsとして配信する構成例です。`raw/` や権利未確認の参照画像は公開対象になりません。
 
-Wranglerを導入し、Cloudflareアカウントで認証した後の公開コマンドは次です。**今回、このコマンドは実行していません。**
+2026-09-23に [Cloudflare Workersへ公開](https://meti-whitepaper-prototype.kazumasa.workers.dev/) しました。配信元コミットは `d7e72a9`、Wrangler 4.136.1を使用。検証記録は [deployment.md](verification/deployment.md)。
+
+認証済みアカウントから再公開するコマンドは次です。
 
 ```bash
-npx wrangler deploy
+npx wrangler@4.136.1 deploy
 ```
 
-現時点の検証はローカルブラウザとJSON設定の構文確認までです。Wranglerビルド、本番デプロイ、カスタムドメイン、R2やD1との接続は未検証です。
+Wranglerの事前検査・デプロイ、公開環境のトップと5記事、グラフ操作を確認済みです。カスタムドメイン、R2・D1接続は使用していません。
 
 ## 確認できた範囲
 

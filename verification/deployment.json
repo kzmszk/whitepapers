@@ -1,0 +1,150 @@
+{
+  "deployed_at_jst": "2026-09-23T00:10:00.410525+09:00",
+  "url": "https://meti-whitepaper-prototype.kazumasa.workers.dev",
+  "worker": "meti-whitepaper-prototype",
+  "wrangler_version": "4.136.1",
+  "deployed_commit": "d7e72a9afdbc74eaec297eb05fdf801ce8342704",
+  "cloudflare_version_id": "d8a784b0-597f-49f0-b9fc-4fa8b793c485",
+  "assets": [
+    {
+      "path": "app.js",
+      "bytes": 10281,
+      "sha256": "24f0ff7ecb0a84d80fdb78c7e1fffe59a1f3b574b2c5797a1b7b925bab1ecee6"
+    },
+    {
+      "path": "article.css",
+      "bytes": 7288,
+      "sha256": "ef7052f70bd959ac77b8fcc37bd73952f86b36524dbbecc5872129549af4fe4b"
+    },
+    {
+      "path": "article.js",
+      "bytes": 11470,
+      "sha256": "c930980189c07ff8106a3762b895aa86d3d38c0baca5312addddab172a675f57"
+    },
+    {
+      "path": "data/energy-consumption.csv",
+      "bytes": 116800,
+      "sha256": "fe930f79ca3e21e2e0cb327e7ae1b0b619dea9b3ed1cd90687522252fff4c5a4"
+    },
+    {
+      "path": "data/energy-emissions.csv",
+      "bytes": 40218,
+      "sha256": "f46676693390cef1d1371a27d1b93c159f451e63939fcb98d2896ddc675482d7"
+    },
+    {
+      "path": "data/energy-self-sufficiency.csv",
+      "bytes": 5840,
+      "sha256": "e82c99c3ab4184d920a63a784e55bd86d2f837e9033c1d6266d54766c6b0db8d"
+    },
+    {
+      "path": "data/energy.json",
+      "bytes": 27781,
+      "sha256": "55bfb695920e654edafb40323429442b683aac01a3ab72ea3ed2bc5a689f9e72"
+    },
+    {
+      "path": "data/industry-industry-comparison.csv",
+      "bytes": 11754,
+      "sha256": "57f49728aa4c72dd8fa4eb11570e6da865b902d4d61b8ffdf2adf465a6a82da0"
+    },
+    {
+      "path": "data/industry-production-shipments.csv",
+      "bytes": 6315,
+      "sha256": "fdd512c9c76e881bfd0fb1016f785f868d866d43d1c1a79ccc079ce128489713"
+    },
+    {
+      "path": "data/industry.json",
+      "bytes": 13581,
+      "sha256": "e714119bffe5b8ce2f72b4e8e2d5472b7a596ef275d484be5b7a8e893662f015"
+    },
+    {
+      "path": "data/small-business-corporations-by-size.csv",
+      "bytes": 1991,
+      "sha256": "b4b9889af941908893b5bfbff01b7bfdbee9268f64bb54a0f09123bfbe3961c7"
+    },
+    {
+      "path": "data/small-business-small-corporation-costs.csv",
+      "bytes": 1767,
+      "sha256": "1c52935af7384adf3d0e4ef48246f024222de2445afb690216609f1d99d08de8"
+    },
+    {
+      "path": "data/small-business.json",
+      "bytes": 13030,
+      "sha256": "78074efc69545824b33fbba143d239e60488e4d9a62252240b012bfb352a9dd3"
+    },
+    {
+      "path": "data/trade-crude-oil-middleeast-share.csv",
+      "bytes": 5961,
+      "sha256": "b3517694abd8bacf74bc9aadfee26dc22129eb7b671ed07ca871e0d488e6ae4a"
+    },
+    {
+      "path": "data/trade-fuels-middleeast-share-2025.csv",
+      "bytes": 1862,
+      "sha256": "9fbcb754180f602f5d8ba5907cb664233ecfb03db72ebff9f80309094ae0fb44"
+    },
+    {
+      "path": "data/trade.json",
+      "bytes": 14564,
+      "sha256": "0edf11bda97c2596f928fb65962911f9b175b79a9bbcbf353661a42a91af3e3e"
+    },
+    {
+      "path": "data/wages-nominal-real-wages.csv",
+      "bytes": 3305,
+      "sha256": "561db08ddd6557aba19c26e44a62df85d2a96b37a185b5c9f08a005568b27f7f"
+    },
+    {
+      "path": "data/wages.json",
+      "bytes": 10788,
+      "sha256": "900cf6531b60a992bba408b381fbfd7e37d83e4d4cef006e275d40f81271d3aa"
+    },
+    {
+      "path": "data.json",
+      "bytes": 16965,
+      "sha256": "d8358427972cc99d8bd8a55bef09cc4de83ce1b09888bc2e1c90af2250a99927"
+    },
+    {
+      "path": "index.html",
+      "bytes": 23098,
+      "sha256": "b5bef67e136354cfa9c836040a9127bf74d70eea1d46077f5261121dbdde6cfe"
+    },
+    {
+      "path": "style.css",
+      "bytes": 17468,
+      "sha256": "80220b63ae3cd6ed42f174434db7eef3092a9a891928eb8f14d1b983dc277321"
+    },
+    {
+      "path": "themes/energy.html",
+      "bytes": 57988,
+      "sha256": "66a2eb8a940a1c757e0d24a699c85c9a00f9a02422d3075735d75409e079b8ac"
+    },
+    {
+      "path": "themes/industry.html",
+      "bytes": 30012,
+      "sha256": "b934ff7fb61f4060cbf8abccffcb778f7066c2f7d0ea83990fccffac40ddaef2"
+    },
+    {
+      "path": "themes/small-business.html",
+      "bytes": 31248,
+      "sha256": "03349f45a57e328f539e2a3ba49e51b8f209ff2e18ce6159f8b31e524b422687"
+    },
+    {
+      "path": "themes/trade.html",
+      "bytes": 33630,
+      "sha256": "32e96e9a14eba588668372874b5e0c909dde081c7d4868ca47d9e97d559923be"
+    },
+    {
+      "path": "themes/wages.html",
+      "bytes": 26040,
+      "sha256": "c911e3e29a6743e373fffd6153b6f212622a95dd8e6d77f4c8c48e867bae41b2"
+    }
+  ],
+  "browser_verified_themes": [
+    "energy",
+    "wages",
+    "industry",
+    "trade",
+    "small-business"
+  ],
+  "durable_objects_binding": false,
+  "http_byte_comparison": "not completed: Python client received HTTP 403 / Cloudflare 1010; browser pages and chart interactions passed",
+  "download_to_disk": "not confirmed"
+}
