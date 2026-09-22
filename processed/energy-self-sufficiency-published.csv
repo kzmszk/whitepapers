@@ -1,0 +1,16 @@
+year,period_type,geography,value,unit,basis,source_id,source_page,transformation,precision
+2010,fiscal_year_april_march,JP,20.2,percent,IEA_basis,energy-supply-demand-2024-summary,7,PDF text table extraction; not recalculation,published 1 decimal
+2011,fiscal_year_april_march,JP,11.5,percent,IEA_basis,energy-supply-demand-2024-summary,7,PDF text table extraction; not recalculation,published 1 decimal
+2012,fiscal_year_april_march,JP,6.7,percent,IEA_basis,energy-supply-demand-2024-summary,7,PDF text table extraction; not recalculation,published 1 decimal
+2013,fiscal_year_april_march,JP,6.5,percent,IEA_basis,energy-supply-demand-2024-summary,7,PDF text table extraction; not recalculation,published 1 decimal
+2014,fiscal_year_april_march,JP,6.3,percent,IEA_basis,energy-supply-demand-2024-summary,7,PDF text table extraction; not recalculation,published 1 decimal
+2015,fiscal_year_april_march,JP,7.3,percent,IEA_basis,energy-supply-demand-2024-summary,7,PDF text table extraction; not recalculation,published 1 decimal
+2016,fiscal_year_april_march,JP,8.0,percent,IEA_basis,energy-supply-demand-2024-summary,7,PDF text table extraction; not recalculation,published 1 decimal
+2017,fiscal_year_april_march,JP,9.5,percent,IEA_basis,energy-supply-demand-2024-summary,7,PDF text table extraction; not recalculation,published 1 decimal
+2018,fiscal_year_april_march,JP,11.7,percent,IEA_basis,energy-supply-demand-2024-summary,7,PDF text table extraction; not recalculation,published 1 decimal
+2019,fiscal_year_april_march,JP,12.1,percent,IEA_basis,energy-supply-demand-2024-summary,7,PDF text table extraction; not recalculation,published 1 decimal
+2020,fiscal_year_april_march,JP,11.3,percent,IEA_basis,energy-supply-demand-2024-summary,7,PDF text table extraction; not recalculation,published 1 decimal
+2021,fiscal_year_april_march,JP,13.3,percent,IEA_basis,energy-supply-demand-2024-summary,7,PDF text table extraction; not recalculation,published 1 decimal
+2022,fiscal_year_april_march,JP,12.6,percent,IEA_basis,energy-supply-demand-2024-summary,7,PDF text table extraction; not recalculation,published 1 decimal
+2023,fiscal_year_april_march,JP,15.3,percent,IEA_basis,energy-supply-demand-2024-summary,7,PDF text table extraction; not recalculation,published 1 decimal
+2024,fiscal_year_april_march,JP,16.3,percent,IEA_basis,energy-supply-demand-2024-summary,7,PDF text table extraction; not recalculation,published 1 decimal

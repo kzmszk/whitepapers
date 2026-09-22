@@ -1,0 +1,166 @@
+[
+  {
+    "filename": "estat-iip-index.html",
+    "url": "https://www.e-stat.go.jp/stat-search/database?bunya_l=05&layout=normal&result_page=1&toukei=00550300",
+    "retrieved_at": "2026-09-22T09:53:53.754183+00:00",
+    "sha256": "db72be5e584e4f55bf677cf3e0cf473b8e00e767821389f9fbebba9bce390120",
+    "bytes": 164760
+  },
+  {
+    "filename": "mhlw-mono-2026-index.html",
+    "url": "https://www.mhlw.go.jp/stf/houdou/newpage_00229.html",
+    "retrieved_at": "2026-09-22T09:53:53.853221+00:00",
+    "sha256": "fd5131ae445113fbb47950e340747d8ef7de08d5252f3f8bdfda8f7a7db452e3",
+    "bytes": 54446
+  },
+  {
+    "filename": "estat-iip-2020-tables.html",
+    "url": "https://www.e-stat.go.jp/stat-search/database?bunya_l=05&layout=datalist&toukei=00550300&result_page=1&tstat=000001022877&cycle=0&tclass1=000001205860&page=1&tclass2val=0",
+    "retrieved_at": "2026-09-22T09:54:37.971738+00:00",
+    "sha256": "f1cc7257468a7fee416a7e54ca37cd3d52925a7c0f125b3ab2e4b761791e988d",
+    "bytes": 333686
+  },
+  {
+    "filename": "mono-2026-overview-mhlw.pdf",
+    "url": "https://www.mhlw.go.jp/content/11801500/001704747.pdf",
+    "retrieved_at": "2026-09-22T09:54:38.240023+00:00",
+    "sha256": "b928dbd66c26763d5bccad3fcad458e99fc7737f5d3cf523622e510c68af89aa",
+    "bytes": 922547
+  },
+  {
+    "filename": "mono-2026-overview.pdf",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/gian_hokoku/20260529monogaiyo.pdf/%24File/20260529monogaiyo.pdf",
+    "retrieved_at": "2026-09-22T09:54:39.203732+00:00",
+    "sha256": "29bc3e271d1c8cfc1ada08a18867d3bc7cfd89a715e1f19258d5828821e72c85",
+    "bytes": 4734262
+  },
+  {
+    "filename": "parliament-whitepaper-index.html",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/gian_hokoku/list.html",
+    "retrieved_at": "2026-09-22T09:54:39.353202+00:00",
+    "sha256": "93da53d386a0a219e3e837792fb9ab7b1bab6e5b02a0ff5124fcd195993f13a8",
+    "bytes": 73646
+  },
+  {
+    "filename": "sme-rieti-index.html",
+    "url": "https://www.rieti.go.jp/jp/events/26061101/handout.html",
+    "retrieved_at": "2026-09-22T09:54:39.684472+00:00",
+    "sha256": "fb4d24774be649ed88dafbca4871cb2390c1c46376da9f1339485c53464c7727",
+    "bytes": 23989
+  },
+  {
+    "filename": "sme-small-2026-overview-parliament.pdf",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/gian_hokoku/20260424kigyogaiyo.pdf/%24File/20260424kigyogaiyo.pdf",
+    "retrieved_at": "2026-09-22T09:55:35.201974+00:00",
+    "sha256": "5e5b4e01406d62b59b2ea41c89bdcf71e5c4c950ee71809a72dcac4137e6c7a8",
+    "bytes": 246912
+  },
+  {
+    "filename": "sme-small-2026-overview-rieti.pdf",
+    "url": "https://www.rieti.go.jp/jp/events/bbl/26061101_okada.pdf",
+    "retrieved_at": "2026-09-22T09:55:35.504265+00:00",
+    "sha256": "17fcdfe9e9ec76244c8931828a32e0c7b99f1195499b4d395e209a6ffb9162be",
+    "bytes": 1752440
+  },
+  {
+    "filename": "estat-iip-db.html",
+    "url": "https://www.e-stat.go.jp/dbview?sid=0004052206",
+    "retrieved_at": "2026-09-22T09:55:37.126157+00:00",
+    "sha256": "863b4a9918f2f84c37e1cb7bad916335c05a7912ec30f2747b909125254056f4",
+    "bytes": 580147
+  },
+  {
+    "filename": "estat-iip-files.html",
+    "url": "https://www.e-stat.go.jp/stat-search/files?bunya_l=05&layout=normal&toukei=00550300&result_page=1&tstat=000001022877",
+    "retrieved_at": "2026-09-22T09:56:47.336921+00:00",
+    "sha256": "6b26362617e1f2e27cfcc44caa7c3b750ed4b509fee29d1325d602e173ae9250",
+    "bytes": 204055
+  },
+  {
+    "filename": "estat-iip-download.js",
+    "url": "https://www.e-stat.go.jp/modules/custom/toukeidb_view/js/toukeidb-main.js?DmYQLHhmBj4Q",
+    "retrieved_at": "2026-09-22T09:56:47.484110+00:00",
+    "sha256": "37e24baa0dabfedd04499181b4a294765672ce57d784e728faac60d10bf56ef0",
+    "bytes": 86142
+  },
+  {
+    "filename": "estat-iip-files-2020.html",
+    "url": "https://www.e-stat.go.jp/stat-search/files?bunya_l=05&layout=datalist&toukei=00550300&tstat=000001022877&result_page=1&cycle=0&tclass1=000001205860&page=1&tclass2val=0",
+    "retrieved_at": "2026-09-22T09:57:23.549049+00:00",
+    "sha256": "a647df10529a445da4090c0961416aafb052b8af3c8824a1ba94364bdd4cbae8",
+    "bytes": 178991
+  },
+  {
+    "filename": "iip-industry-annual-quarterly-original-20260914.xlsx",
+    "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040172370&fileKind=0",
+    "retrieved_at": "2026-09-22T09:58:13.102356+00:00",
+    "sha256": "4bcaf7a01d8f6ad2603bb32df5dd7f7356ecf6df42739ab786fd5a763bca20c5",
+    "bytes": 236973,
+    "response_headers": {
+      "Content-Type": "application/octet-stream",
+      "Transfer-Encoding": "chunked",
+      "Connection": "close",
+      "X-Cache": "MISS",
+      "Date": "Tue, 22 Sep 2026 09:58:13 GMT",
+      "Accept-Ranges": "bytes",
+      "X-XSS-Protection": "1; mode=block",
+      "Server": "ZENEDGE",
+      "Content-Disposition": "attachment; filename*=UTF-8''b2020_goq1j.xlsx",
+      "X-Frame-Options": "SAMEORIGIN",
+      "Strict-Transport-Security": "max-age=0",
+      "X-Cache-Status": "NOTCACHED",
+      "X-Zen-Fury": "efcfa02fd547962fac3a56dc4c7c0ffc46e8a8f6",
+      "Vary": "Accept-Encoding",
+      "X-Content-Type-Options": "nosniff",
+      "Cache-Control": "private",
+      "X-Cdn": "Served-By-Zenedge"
+    }
+  },
+  {
+    "filename": "iip-industry-monthly-original-20260914.xlsx",
+    "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040172364&fileKind=0",
+    "retrieved_at": "2026-09-22T09:58:13.515035+00:00",
+    "sha256": "dfa7ead12961fab8fa71c194be2a8efb4074644d822a3a4883cd59996a9136a6",
+    "bytes": 371170,
+    "response_headers": {
+      "Content-Type": "application/octet-stream",
+      "Transfer-Encoding": "chunked",
+      "Connection": "close",
+      "Vary": "Accept-Encoding",
+      "X-Content-Type-Options": "nosniff",
+      "X-Frame-Options": "SAMEORIGIN",
+      "Content-Disposition": "attachment; filename*=UTF-8''b2020_gom1j.xlsx",
+      "Cache-Control": "private",
+      "X-Cache": "MISS",
+      "Date": "Tue, 22 Sep 2026 09:58:13 GMT",
+      "X-Cache-Status": "NOTCACHED",
+      "Strict-Transport-Security": "max-age=0",
+      "X-Zen-Fury": "3fd6fe42bd21e21a2bcc3078937fad2bf5ae5252",
+      "X-XSS-Protection": "1; mode=block",
+      "Accept-Ranges": "bytes",
+      "Server": "ZENEDGE",
+      "X-Cdn": "Served-By-Zenedge"
+    }
+  },
+  {
+    "filename": "estat-sme-basic-index.html",
+    "url": "https://www.e-stat.go.jp/stat-search/files?kikan=00553&layout=dataset&toukei=00553010",
+    "retrieved_at": "2026-09-22T10:00:53.875356+00:00",
+    "sha256": "876bd9e29c635a9ee3a52c86c029b4e0a08527be6bd81b12813a4cbca205355a",
+    "bytes": 349716
+  },
+  {
+    "filename": "sme-basic-2025-final-summary.xlsx",
+    "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040470279&fileKind=0",
+    "retrieved_at": "2026-09-22T10:01:32.762132+00:00",
+    "sha256": "17b5112c2cf5c7b9f49e84fa4b54818e373f07a4e45368261d3f432bfd43848a",
+    "bytes": 147958
+  },
+  {
+    "filename": "sme-basic-2025-final-notes.pdf",
+    "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040470276&fileKind=2",
+    "retrieved_at": "2026-09-22T10:01:33.257917+00:00",
+    "sha256": "ffec666816ca42c0f566667ef430813b2389b7e0b16949a4a8d6f2aa02a3617d",
+    "bytes": 250238
+  }
+]

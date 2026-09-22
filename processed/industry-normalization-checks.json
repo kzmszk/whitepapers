@@ -1,0 +1,231 @@
+{
+  "annual_rows": 2480,
+  "missing_rows": [],
+  "crosscheck": "32 annual values compared to 12-month arithmetic means; tolerance 0.051 index points",
+  "checks": [
+    {
+      "measure": "production",
+      "industry_code": "1000000000",
+      "year": 2018,
+      "annual_value": 114.6,
+      "monthly_mean": 114.633333
+    },
+    {
+      "measure": "production",
+      "industry_code": "1000000000",
+      "year": 2019,
+      "annual_value": 111.6,
+      "monthly_mean": 111.591667
+    },
+    {
+      "measure": "production",
+      "industry_code": "1000000000",
+      "year": 2020,
+      "annual_value": 100.0,
+      "monthly_mean": 99.983333
+    },
+    {
+      "measure": "production",
+      "industry_code": "1000000000",
+      "year": 2021,
+      "annual_value": 105.4,
+      "monthly_mean": 105.416667
+    },
+    {
+      "measure": "production",
+      "industry_code": "1000000000",
+      "year": 2022,
+      "annual_value": 105.3,
+      "monthly_mean": 105.258333
+    },
+    {
+      "measure": "production",
+      "industry_code": "1000000000",
+      "year": 2023,
+      "annual_value": 103.9,
+      "monthly_mean": 103.925
+    },
+    {
+      "measure": "production",
+      "industry_code": "1000000000",
+      "year": 2024,
+      "annual_value": 101.2,
+      "monthly_mean": 101.183333
+    },
+    {
+      "measure": "production",
+      "industry_code": "1000000000",
+      "year": 2025,
+      "annual_value": 100.9,
+      "monthly_mean": 100.891667
+    },
+    {
+      "measure": "production",
+      "industry_code": "1100000000",
+      "year": 2018,
+      "annual_value": 114.7,
+      "monthly_mean": 114.65
+    },
+    {
+      "measure": "production",
+      "industry_code": "1100000000",
+      "year": 2019,
+      "annual_value": 111.6,
+      "monthly_mean": 111.616667
+    },
+    {
+      "measure": "production",
+      "industry_code": "1100000000",
+      "year": 2020,
+      "annual_value": 100.0,
+      "monthly_mean": 99.983333
+    },
+    {
+      "measure": "production",
+      "industry_code": "1100000000",
+      "year": 2021,
+      "annual_value": 105.4,
+      "monthly_mean": 105.433333
+    },
+    {
+      "measure": "production",
+      "industry_code": "1100000000",
+      "year": 2022,
+      "annual_value": 105.3,
+      "monthly_mean": 105.283333
+    },
+    {
+      "measure": "production",
+      "industry_code": "1100000000",
+      "year": 2023,
+      "annual_value": 104.0,
+      "monthly_mean": 103.958333
+    },
+    {
+      "measure": "production",
+      "industry_code": "1100000000",
+      "year": 2024,
+      "annual_value": 101.2,
+      "monthly_mean": 101.2
+    },
+    {
+      "measure": "production",
+      "industry_code": "1100000000",
+      "year": 2025,
+      "annual_value": 100.9,
+      "monthly_mean": 100.925
+    },
+    {
+      "measure": "shipments",
+      "industry_code": "1000000000",
+      "year": 2018,
+      "annual_value": 114.9,
+      "monthly_mean": 114.891667
+    },
+    {
+      "measure": "shipments",
+      "industry_code": "1000000000",
+      "year": 2019,
+      "annual_value": 112.0,
+      "monthly_mean": 111.95
+    },
+    {
+      "measure": "shipments",
+      "industry_code": "1000000000",
+      "year": 2020,
+      "annual_value": 100.0,
+      "monthly_mean": 99.991667
+    },
+    {
+      "measure": "shipments",
+      "industry_code": "1000000000",
+      "year": 2021,
+      "annual_value": 104.4,
+      "monthly_mean": 104.366667
+    },
+    {
+      "measure": "shipments",
+      "industry_code": "1000000000",
+      "year": 2022,
+      "annual_value": 103.9,
+      "monthly_mean": 103.908333
+    },
+    {
+      "measure": "shipments",
+      "industry_code": "1000000000",
+      "year": 2023,
+      "annual_value": 103.2,
+      "monthly_mean": 103.233333
+    },
+    {
+      "measure": "shipments",
+      "industry_code": "1000000000",
+      "year": 2024,
+      "annual_value": 99.9,
+      "monthly_mean": 99.866667
+    },
+    {
+      "measure": "shipments",
+      "industry_code": "1000000000",
+      "year": 2025,
+      "annual_value": 99.5,
+      "monthly_mean": 99.491667
+    },
+    {
+      "measure": "shipments",
+      "industry_code": "1100000000",
+      "year": 2018,
+      "annual_value": 114.9,
+      "monthly_mean": 114.891667
+    },
+    {
+      "measure": "shipments",
+      "industry_code": "1100000000",
+      "year": 2019,
+      "annual_value": 112.0,
+      "monthly_mean": 111.966667
+    },
+    {
+      "measure": "shipments",
+      "industry_code": "1100000000",
+      "year": 2020,
+      "annual_value": 100.0,
+      "monthly_mean": 100.0
+    },
+    {
+      "measure": "shipments",
+      "industry_code": "1100000000",
+      "year": 2021,
+      "annual_value": 104.4,
+      "monthly_mean": 104.375
+    },
+    {
+      "measure": "shipments",
+      "industry_code": "1100000000",
+      "year": 2022,
+      "annual_value": 103.9,
+      "monthly_mean": 103.908333
+    },
+    {
+      "measure": "shipments",
+      "industry_code": "1100000000",
+      "year": 2023,
+      "annual_value": 103.3,
+      "monthly_mean": 103.25
+    },
+    {
+      "measure": "shipments",
+      "industry_code": "1100000000",
+      "year": 2024,
+      "annual_value": 99.9,
+      "monthly_mean": 99.858333
+    },
+    {
+      "measure": "shipments",
+      "industry_code": "1100000000",
+      "year": 2025,
+      "annual_value": 99.5,
+      "monthly_mean": 99.5
+    }
+  ]
+}

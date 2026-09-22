@@ -1,0 +1,1061 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=Shift_JIS">
+<meta http-equiv=Content-Script-Type content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<LINK rel="stylesheet" type="text/css" href="/domino/html/headerandfooter.css">
+<LINK rel="stylesheet" type="text/css" href="/domino/html/medium.css">
+<LINK rel="stylesheet" type="text/css" href="/domino/html/csvcommon.css">
+<LINK href="//c.marsflag.com/mf/mfx/1.0-latest/css/mfx-sbox.css" rel="stylesheet" type="text/css" media="all" charset="UTF-8">
+<LINK rel=stylesheet type=text/css href="/domino/html/MFsearchBox.css"><LINK rel=stylesheet type=text/css href="/domino/html/MF_C.css">
+<script type="text/javascript" src="/domino/html/sprs.js"></script>
+<TITLE>国会提出報告書等の情報</title>
+<style type="text/css">
+  #HeaderBack{text-align:left;}
+  #HeaderBody{width:960px;text-align:left;}
+  #HeadLogo{width:960px;text-align:left;margin-top:20px;}
+  #HeaderBlock #HeaderBody #HeaderLine1 IMG { MARGIN: 0px }
+  #HeaderLine{margin-left:-20px;}
+  #HeaderBlock #HeaderBody #HeaderLine1 IMG { MARGIN: 0px }
+  #read{width:960px;text-align:left;;margin:0 auto;}
+  #breadcrumb{text-align:left;font-size:90%;padding:5px 0px 30px 5px;}
+  #back{text-align:right;}
+  img{border:0}
+  body{margin:0 auto;text-align:center;background-color:#ffffff;}
+   table{border-collapse:collapse;}
+   th{border:1px #000000 solid;padding:0.3em;background-color:#cccccc;}
+   td{border:1px #000000 solid;padding:0.3em;background-color:#ffffff;}
+  h2{text-align:center;width:600px;font-family:'HG正楷書体-PRO';border:4px double #999999;padding:10px;margin:0 auto;}
+     .main{width:900px;background-color:#ffffff;margin:0 auto;}
+     .set{padding:0.4em;background-color:#cccccc;border:4px inset #cccccc;}
+     .select{padding:0.4em;background-color:#ffffff;border:4px outset #cccccc;}
+     .setsumei{text-align:left;line-height:1em;font-size:0.9em;padding:20px 10px 0;}
+     .contact{padding:20px 125px;background-color:#eeeeee;}
+     .left{text-align:left}
+     .right{text-align:right;}
+　　 .sfont{font-size:0.7em;}
+</style>
+</head>
+<body>
+<DIV id=HeaderBlock>
+<DIV id=HeaderBack>
+<IMG id=BackLogo alt=衆議院 src="/internet/index.nsf/html/images/thehouse.gif/$FIle/thehouse.gif" width="240" height="120">
+</DIV>
+<DIV id=HeaderBody>
+<H1 id=HeadLogo><A href="/"><IMG alt=衆議院 src="/internet/index.nsf/html/images/logo2.gif/$FIle/logo2.gif" width=234 height=64></A></H1>
+<P id=HeadText><A tabIndex=1 href="#TopContents" target=_top>メインへスキップ</A></P>
+<UL id=MapandHelp>
+  <LI><A tabIndex=2 href="/internet/itdb_annai.nsf/html/statics/sitemap.htm">サイトマップ</A></LI>
+  <LI><A tabIndex=3 href="/internet/itdb_annai.nsf/html/statics/help.htm">ヘルプ</A></LI>
+<NOSCRIPT><br>ブラウザのJavaScriptが無効のため、サイト内検索はご利用いただけません。</NOSCRIPT>
+</UL>
+<UL id=TalkBox>
+  <LI>音声読み上げ<A href="https://speechpanel.readspeaker.com/cgi-bin/rssp?customerid=7272&lang=ja_jp&url=" onclick="this.href += encodeURIComponent(location.href);"><IMG class=changeBtn tabIndex=4 alt=音声読み上げアイコン  src="/internet/index.nsf/html/images/readspeaker.gif/$FIle/readspeaker.gif"></A></LI>
+  <LI>サイト内検索</LI>
+</UL>
+<DIV id=SearchBox>
+  <DIV class="mf_finder_container" >
+    <mf-search-box 
+     ajax-url="//mf2apg01.marsflag.com/shugiin__ja__ja/x_search.x" serp-url="/internet/index.nsf/html/Site_Search_Result.htm#/"
+     submit-text="検索" input-title="" doctype-hidden options-hidden></mf-search-box>
+  </DIV>
+</DIV>
+
+<UL id="HeaderLine1">
+              <LI id="HL1Box1"><A tabindex="11" href="/internet/index.nsf/html/honkai_top.htm"><img src="/internet/index.nsf/html/images/topbtn_clear.png/$File/topbtn_clear.png" width="155" height="39" alt="本会議・委員会等"></A></LI>
+              <LI id="HL1Box2"><A tabindex="12" href="/Internet/index.nsf/html/rippo_top.htm"><img src="/internet/index.nsf/html/images/topbtn_clear.png/$File/topbtn_clear.png" width="155" height="39" alt="立法情報"></A></LI>
+              <LI id="HL1Box3"><A tabindex="13" href="/Internet/index.nsf/html/giin_top.htm"><img src="/internet/index.nsf/html/images/topbtn_clear.png/$File/topbtn_clear.png" width="155" height="39" alt="議員情報"></A></LI>
+              <LI id="HL1Box4"><A tabindex="14" href="/Internet/index.nsf/html/shiryo_top.htm"><img src="/internet/index.nsf/html/images/topbtn_clear.png/$File/topbtn_clear.png" width="155" height="39" alt="国会関係資料"></A></LI>
+              <LI id="HL1Box5"><A tabindex="15" href="/Internet/index.nsf/html/tetsuzuki_top.htm"><img src="/internet/index.nsf/html/images/topbtn_clear.png/$File/topbtn_clear.png" width="155" height="39" alt="各種手続"></A></LI>
+              <LI id="HL1Box6"><A tabindex="16" href="/internet/index.nsf/html/index_e.htm"><img src="/internet/index.nsf/html/images/topbtn_clear.png/$File/topbtn_clear.png" width="155" height="39" alt="English"></A></LI>
+</UL>
+</DIV>
+</DIV>
+<DIV id="mainlayout">
+<XYZYX>
+<div class="main" id="top">
+<!-- パンくずリスト -->
+<div id="breadcrumb">
+<a href="/">衆議院トップページ</a>
+＞<a href="/internet/index.nsf/html/rippo_top.htm">立法情報</a>
+＞国会提出報告書等の情報
+</div>
+<br>
+<!--★ページタイトル★-->
+<h2 id="TopContents">国会提出報告書等の情報</h2>
+<br>
+<!--★説明文★-->
+<div class="setsumei">
+<p>法律に基づいて内閣等から国会に対して提出された報告・勧告・意見等（報告書等）のうち、概ね1年以内に提出された報告書等の概要書（ＰＤＦ形式）と掲載されている各府省庁ホームページ
+（外部リンク）の情報を提供しています。</p>
+<br>（各府省庁ホームページに掲載されていない報告書等のみＰＤＦ形式でこのページに掲載）</p>
+</div>
+<!--★提出日順一覧★-->
+<table>
+ <tr>
+  <th width="16%">提出年月日</th>
+  <th width="40%">報告書等名</th>
+  <th nowrap>概要書<br><span class="sfont">（PDF形式）</span></th>
+  <th nowrap width="15%">各府省庁ＨＰ<br><span class="sfont">（外部リンク）</span></th>
+  <th nowrap width="16%">備考</th>
+ </tr>
+<tr>
+  <td nowrap>令和8年9月15日</td>
+  <td class="left">令和７年度自衛隊員の倫理の保持に関する状況及び倫理の保持に関して講じた施策に関する報告</td>
+  <td nowrap><a href="20260915rinri_jieitaigaiyo.pdf/$File/20260915rinri_jieitaigaiyo.pdf">概要書</a><br>(298KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.mod.go.jp/j/approach/agenda/meeting/rinri/index.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（防衛省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年9月15日</td>
+  <td class="left">国家公務員倫理規程及び職員の職務に係る倫理に関する訓令に関する報告</td>
+  <td nowrap><a href="20260915kokka_kunreigaiyo.pdf/$File/20260915kokka_kunreigaiyo.pdf">概要書</a><br>(339KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.cas.go.jp/jp/gaiyou/jimu/jinjikyoku/jinji_e.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（内閣官房HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年9月15日</td>
+  <td class="left">令和７年度国家公務員の倫理の保持に関する状況及び倫理の保持に関して講じた施策に関する報告</td>
+  <td nowrap><a href="20260915rinri_kokkagaiyo.pdf/$File/20260915rinri_kokkagaiyo.pdf">概要書</a><br>(448KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.cas.go.jp/jp/gaiyou/jimu/jinjikyoku/jinji_e.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（内閣官房HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年9月1日</td>
+  <td class="left">令和8年度第1・四半期における国庫の状況</td>
+  <td nowrap><a href="20260901kokkogaiyo.pdf/$File/20260901kokkogaiyo.pdf">概要書</a><br>(254KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.mof.go.jp/policy/exchequer/reference/exchequer_report/data.htm" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（財務省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+   <td nowrap>令和8年9月1日</td>
+  <td class="left">令和8年度第1・四半期における予算使用の状況</td>
+  <td nowrap><a href="20260901yosangaiyo.pdf/$File/20260901yosangaiyo.pdf">概要書</a><br>(298KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.mof.go.jp/policy/budget/report/budget_use/index.htm" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（財務省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年9月1日</td>
+  <td class="left">令和7年度における予算使用の状況（令和7年度出納整理期間を含む。）</td>
+  <td nowrap><a href="20260901yosan1gaiyo.pdf/$File/20260901yosan1gaiyo.pdf">概要書</a><br>(303KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.mof.go.jp/policy/budget/report/budget_use/index.htm" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（財務省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+<tr>
+  <td nowrap>令和8年8月7日</td>
+  <td class="left">公務員人事管理についての報告、一般職の職員の給与についての報告、勧告及び一般職の職員の勤務時間及び休暇についての勧告並びに国家公務員災害補償法の改正についての意見</td>
+  <td nowrap><a href="20260807jinkangaiyo.pdf/$File/20260807jinkangaiyo.pdf">概要書</a><br>(2.10MB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.jinji.go.jp/seisaku/kankoku.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（人事院HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13> </td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年7月31日</td>
+  <td class="left"><a href="20260731hijosaigai.pdf/$File/20260731hijosaigai.pdf">令和８年熊本地震非常災害現地対策本部の設置の報告</a>
+　<br>※PDF形式(85KB)</td>
+  <td nowrap><a href="20260731hijosaigaigaiyo.pdf/$File/20260731hijosaigaigaiyo.pdf">概要書</a><br>(113KB)</td>
+  <td class="left">HPへの掲載なし</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年7月30日</td>
+  <td class="left">国と地方の協議の場（令和8年度第1回）における協議の概要に関する報告書</td>
+  <td nowrap><a href="20260730kyogigaiyo.pdf/$File/20260730kyogigaiyo.pdf">概要書</a><br>(352KB)</td>
+  <td class="left"><A tabIndex=185 href="http://www.cas.go.jp/jp/seisaku/kyouginoba/" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（内閣官房HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年7月24日</td>
+  <td class="left"><a href="20260724kounen.pdf/$File/20260724kounen.pdf">厚生年金保険の保険給付及び保険料の納付の特例等に関する法律の施行状況に関する報告</a>
+　<br>※PDF形式(233KB)</td>
+  <td nowrap><a href="20260724kounengaiyo.pdf/$File/20260724kounengaiyo.pdf">概要書</a><br>(211KB)</td>
+  <td class="left">HPへの掲載なし</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年7月24日</td>
+  <td class="left">国民生活安定緊急措置法の施行状況報告書（令和8年2月1日から同年6月30日まで）</td>
+  <td nowrap><a href="20260724kokumingaiyo.pdf/$File/20260724kokumingaiyo.pdf">概要書</a><br>(248KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.caa.go.jp/policies/policy/consumer_partnerships/price_measures/laws/" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（消費者庁HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+<tr>
+  <td nowrap>令和8年7月21日</td>
+  <td class="left">デジタル社会の形成に関する重点計画・公的基礎情報データベース整備改善計画・官民データ活用推進基本計画の変更の報告<br>（デジタル社会の実現に向けた重点計画）</td>
+  <td nowrap><a href="20260721kanmingaiyo.pdf/$File/20260721kanmingaiyo.pdf">概要書</a><br>(1.73MB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.digital.go.jp/policies/priority-policy-program/" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（デジタル庁HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+  <tr>
+  <td nowrap>令和8年7月10日</td>
+  <td class="left">令和７年度「交通の動向」に関する報告<br>令和８年度「交通施策」についての文書</td>
+  <td nowrap><a href="20260710kotsugaiyo.pdf/$File/20260710kotsugaiyo.pdf">概要書</a><br>(3.31MB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.mlit.go.jp/sogoseisaku/transport_policy/sosei_transport_policy_fr1_000009.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（国土交通省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年7月10日</td>
+  <td class="left">令和７年度「観光の状況」に関する報告<br>令和８年度「観光施策」についての文書</td>
+  <td nowrap><a href="20260710kankogaiyo.pdf/$File/20260710kankogaiyo.pdf">概要書</a><br>(1.47MB)</td>
+  <td class="left"><A tabIndex=185 href="http://www.mlit.go.jp/statistics/file000008.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（国土交通省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年7月10日</td>
+  <td class="left">令和７年度「土地に関する動向」に関する報告<br>令和８年度「土地に関する基本的施策」についての文書</td>
+  <td nowrap><a href="20260710tochigaiyo.pdf/$File/20260710tochigaiyo.pdf">概要書</a><br>(969KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.mlit.go.jp/statistics/file000006.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（国土交通省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年7月10日</td>
+  <td class="left">令和７年度首都圏整備に関する年次報告</td>
+  <td nowrap><a href="20260710shutokengaiyo.pdf/$File/20260710shutokengaiyo.pdf">概要書</a><br>(4.46MB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.mlit.go.jp/kokudoseisaku/capital_area.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（国土交通省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年7月10日</td>
+  <td class="left">令和７年度拉致問題の解決その他北朝鮮当局による人権侵害問題への対処に関する政府の取組についての報告</td>
+  <td nowrap><a href="20260710rachigaiyo.pdf/$File/20260710rachigaiyo.pdf">概要書</a><br>(246KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.mofa.go.jp/mofaj/press/pr/pub/pamph/rachi_torikumi.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（外務省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年7月10日</td>
+  <td class="left">令和７年度「男女共同参画社会の形成の状況」に関する報告<br>令和８年度「男女共同参画社会の形成の促進施策」についての文書</td>
+  <td nowrap><a href="20260710danjogaiyo.pdf/$File/20260710danjogaiyo.pdf">概要書</a><br>(1.43MB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.gender.go.jp/about_danjo/whitepaper/index.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（内閣府HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年7月10日</td>
+  <td class="left">令和７年度「水循環施策」に関する報告</td>
+  <td nowrap><a href="20260710mizujunkangaiyo.pdf/$File/20260710mizujunkangaiyo.pdf">概要書</a><br>(1.97MB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.cas.go.jp/jp/seisakukaigi/mizu_junkan/whitepaper.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（内閣官房HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年7月7日</td>
+  <td class="left">令和７年度科学技術・イノベーション創出の振興に関する年次報告</td>
+  <td nowrap><a href="20260707kagigaiyo.pdf/$File/20260707kagigaiyo.pdf">概要書</a><br>(2.96MB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.mext.go.jp/b_menu/hakusho/html/kagaku.htm" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（文部科学省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年7月7日</td>
+  <td class="left">令和７年度個人情報保護委員会年次報告書</td>
+  <td nowrap><a href="20260707kojinjohogaiyo.pdf/$File/20260707kojinjohogaiyo.pdf">概要書</a><br>(1.03MB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.ppc.go.jp/aboutus/report/" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（個人情報保護委員会HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+</tr>
+ <tr>
+  <td nowrap>令和8年7月3日</td>
+  <td class="left">令和７年度東京電力福島原子力発電所事故調査委員会の報告書を受けて講じた措置に関する報告</td>
+  <td nowrap><a href="20260703todengaiyo.pdf/$File/20260703todengaiyo.pdf">概要書</a><br>(296KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www8.cao.go.jp/genshiryoku_bousai/fu_koukai/fu_koukai.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（内閣府HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年6月30日</td>
+  <td class="left">「防災に関してとった措置の概況」の報告<br>令和８年度「防災に関する計画」の報告</td>
+  <td nowrap><a href="20260630bosaigaiyo.pdf/$File/20260630bosaigaiyo.pdf">概要書</a><br>(1.14MB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.bousai.go.jp/kaigirep/hakusho/index.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（内閣府HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年6月26日</td>
+  <td class="left">令和7年度第4・四半期における国庫の状況</td>
+  <td nowrap><a href="20260626kokkogaiyo.pdf/$File/20260626kokkogaiyo.pdf">概要書</a><br>(345KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.mof.go.jp/policy/exchequer/reference/exchequer_report/data.htm" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（財務省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年6月26日</td>
+  <td class="left">令和7年度第4・四半期における予算使用の状況（ただし出納整理期間を含まず。）</td>
+  <td nowrap><a href="20260626yosangaiyo.pdf/$File/20260626yosangaiyo.pdf">概要書</a><br>(290KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.mof.go.jp/policy/budget/report/budget_use/index.htm" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（財務省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年6月26日</td>
+  <td class="left">令和７年度「人権教育及び人権啓発施策」に関する報告</td>
+  <td nowrap><a href="20260626jinkengaiyo.pdf/$File/20260626jinkengaiyo.pdf">概要書</a><br>(2.46MB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.moj.go.jp/JINKEN/jinken04_00362.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（法務省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年6月26日</td>
+  <td class="left">重要経済安保情報の指定及びその解除、適性評価の実施並びに適合事業者の認定の状況に関する報告</td>
+  <td nowrap><a href="20260626keizaianzengaiyo.pdf/$File/20260626keizaianzengaiyo.pdf">概要書</a><br>(359KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.cao.go.jp/keizai_anzen_hosho/hogokatsuyou/hogokatsuyou.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（内閣府HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年6月26日</td>
+  <td class="left">特定秘密の指定及びその解除並びに適性評価の実施の状況に関する報告</td>
+  <td><a href="20260626tekiseigaiyo.pdf/$File/20260626tekiseigaiyo.pdf">概要書</a><br>(578KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.cas.go.jp/jp/tokuteihimitsu/hokoku.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（内閣官房HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年6月22日</td>
+  <td class="left">通貨及び金融の調節に関する報告書</td>
+  <td nowrap><a href="20260622nichigingaiyo.pdf/$File/20260622nichigingaiyo.pdf">概要書</a><br>(416KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.boj.or.jp/mopo/diet/index.htm" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（日本銀行HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年6月22日</td>
+  <td class="left">破綻金融機関の処理のために講じた措置の内容等に関する報告</td>
+  <td nowrap><a href="20260622frcgaiyo.pdf/$File/20260622frcgaiyo.pdf">概要書</a><br>(188KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.fsa.go.jp/common/diet/houkoku/index.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（金融庁HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+</tr>
+ <tr>
+  <td nowrap>令和8年6月22日</td>
+  <td class="left">令和７年度公正取引委員会年次報告書</td>
+  <td nowrap><a href="20260622koutorigaiyo.pdf/$File/20260622koutorigaiyo.pdf">概要書</a><br>(270KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.jftc.go.jp/soshiki/nenpou/index.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（公正取引委員会HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年6月19日</td>
+  <td class="left">令和７年度「我が国におけるこどもをめぐる状況及び政府が講じたこども施策の実施状況」に関する報告</td>
+  <td nowrap><a href="20260619kodomoshisakugaiyo.pdf/$File/20260619kodomoshisakugaiyo.pdf">概要書</a><br>(1.09MB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.cfa.go.jp/resources/white-paper/" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（こども家庭庁HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年6月19日</td>
+  <td class="left">南スーダン国際平和協力業務の実施の状況の報告</td>
+  <td rowspan="2"><a href="20260619pkogaiyo.pdf/$File/20260619pkogaiyo.pdf">概要書</a><br>(318KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.cao.go.jp/pko/pko_j/data/data04.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（内閣府HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年6月19日</td>
+  <td class="left">南スーダン国際平和協力業務実施計画の変更の報告</td>
+　<td class="left"><A tabIndex=185 href="https://www.cao.go.jp/pko/pko_j/data/data02.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（内閣府HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年6月17日</td>
+  <td class="left">令和７年度人事院業務状況の報告</td>
+  <td nowrap><a href="20260617jinjiingaiyo.pdf/$File/20260617jinjiingaiyo.pdf">概要書</a><br>(702KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.jinji.go.jp/kouho_houdo/koumuinhakusyo/hakusho/pdf.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（人事院HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年6月16日</td>
+  <td class="left">令和７年度「食育推進施策」に関する報告</td>
+  <td nowrap><a href="20260616shokuikugaiyo.pdf/$File/20260616shokuikugaiyo.pdf">概要書</a><br>(455KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.maff.go.jp/j/wpaper/index.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（農林水産省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+<tr>
+  <td nowrap>令和8年6月12日</td>
+  <td class="left">会計検査院法第30条の2の規定に基づく報告書<br>「地方財政計画の事後検証等の状況について」</td>
+  <td nowrap><a href="20260612kensaingaiyo.pdf/$File/20260612kensaingaiyo.pdf">概要書</a><br>(206KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.jbaudit.go.jp/report/zuiji/index.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（会計検査院HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr> 
+ <tr>
+  <td nowrap>令和8年6月12日</td>
+  <td class="left"><a href="20260612ilo2.pdf/$File/20260612ilo2.pdf">2025年国際労働機関第113回総会において採択された勧告に関する報告書</a>
+　<br>※PDF形式(303KB)</td>
+  <td rowspan="2"><a href="20260612ilogaiyo.pdf/$File/20260612ilogaiyo.pdf">概要書</a><br>(209KB)</td>
+  <td class="left" rowspan="2">HPへの掲載なし</td>
+  <td rowspan="2"></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年6月12日</td>
+  <td class="left"><a href="20260612ilo1.pdf/$File/20260612ilo1.pdf">2025年国際労働機関第113回総会において採択された条約に関する報告書</a>
+　<br>※PDF形式(328KB)</td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年6月12日</td>
+  <td class="left">令和７年度消費者事故等に関する情報の集約及び分析の取りまとめ結果の報告</td>
+  <td rowspan="2"><a href="20260612shohishagaiyo.pdf/$File/20260612shohishagaiyo.pdf">概要書</a><br>(25.5MB)</td>
+  <td class="left" rowspan="2"><A tabIndex=185 href="https://www.caa.go.jp/policies/policy/consumer_research/white_paper/"  title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（消費者庁HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年6月12日</td>
+  <td class="left">令和７年度「消費者政策の実施の状況」に関する報告</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年6月12日</td>
+  <td class="left">令和７年度「交通事故の状況及び交通安全施策の現況」の報告<br>令和８年度「交通安全施策に関する計画」の報告</td>
+  <td nowrap><a href="20260612kotsuanzengaiyo.pdf/$File/20260612kotsuanzengaiyo.pdf">概要書</a><br>(2.85MB)</td>
+  <td class="left"><A tabIndex=185 href="https://www8.cao.go.jp/koutu/taisaku/index-t.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（内閣府HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年6月12日</td>
+  <td class="left">令和７年度「障害者施策の概況」に関する報告</td>
+  <td nowrap><a href="20260612shogaishagaiyo.pdf/$File/20260612shogaishagaiyo.pdf">概要書</a><br>(8.53MB)</td>
+  <td class="left"><A tabIndex=185 href="https://www8.cao.go.jp/shougai/whitepaper/index-w.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（内閣府HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年6月12日</td>
+  <td class="left">令和７年度「高齢化の状況及び高齢社会対策の実施状況」に関する報告<br>令和８年度「高齢社会対策」についての文書</td>
+  <td nowrap><a href="20260612koreigaiyo.pdf/$File/20260612koreigaiyo.pdf">概要書</a><br>(17.9MB)</td>
+  <td class="left"><A tabIndex=185 href="https://www8.cao.go.jp/kourei/whitepaper/index-w.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（内閣府HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+<tr>
+  <td nowrap>令和8年6月5日</td>
+  <td class="left">令和７年度原子力規制委員会年次報告書</td>
+  <td nowrap><a href="20260605kiseichogaiyo.pdf/$File/20260605kiseichogaiyo.pdf">概要書</a><br>(309KB)</td>
+  <td class="left"><A tabIndex=185 href="http://www.nra.go.jp/disclosure/committee/kettei/06/05.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（原子力規制委員会HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年6月5日</td>
+  <td class="left">令和７年度「生物の多様性の状況」に関する報告<br>令和８年度「生物の多様性の保全及び持続可能な利用に関する施策」についての文書</td>
+  <td rowspan="3"><a href="20260605kankyogaiyo.pdf/$File/20260605kankyogaiyo.pdf">概要書</a><br>(2.14MB)</td>
+  <td class="left" rowspan="3"><A tabIndex=185 href="http://www.env.go.jp/policy/hakusyo/index.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（環境省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年6月5日</td>
+  <td class="left">令和７年度「循環型社会の形成の状況」に関する報告<br>令和８年度「循環型社会の形成に関する施策」についての文書</td>
+  <td></td>
+  </tr>
+ <tr>
+  <td nowrap>令和8年6月5日</td>
+  <td class="left">令和７年度「環境の状況」に関する報告<br>令和８年度「環境の保全に関する施策」についての文書</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年6月5日</td>
+  <td class="left">令和７年度「水産の動向」に関する報告<br>令和８年度「水産施策」についての文書</td>
+  <td nowrap><a href="20260605suisangaiyo.pdf/$File/20260605suisangaiyo.pdf">概要書</a><br>(619KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.jfa.maff.go.jp/j/kikaku/wpaper/index.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（水産庁HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年6月5日</td>
+  <td class="left">森林・林業基本計画の変更の報告</td>
+  <td nowrap><a href="20260605sinrin_keikakugaiyo.pdf/$File/20260605sinrin_keikakugaiyo.pdf">概要書</a><br>(449KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.rinya.maff.go.jp/j/kikaku/plan/" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（林野庁HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年6月5日</td>
+  <td class="left">令和７年度公害等調整委員会年次報告書</td>
+  <td nowrap><a href="20260605kogaigaiyo.pdf/$File/20260605kogaigaiyo.pdf">概要書</a><br>(805KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.soumu.go.jp/kouchoi/knowledge/nenji/main.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（総務省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年6月5日</td>
+  <td class="left">令和７年度政策評価等の実施状況及びこれらの結果の政策への反映状況に関する報告</td>
+  <td nowrap><a href="20260605seisakugaiyo.pdf/$File/20260605seisakugaiyo.pdf">概要書</a><br>(844KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.soumu.go.jp/main_sosiki/hyouka/seisaku_n/nenji_houkoku.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（総務省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年6月2日</td>
+  <td class="left">令和７年度「森林及び林業の動向」に関する報告<br>令和８年度「森林及び林業施策」についての文書</td>
+  <td nowrap><a href="20260602sinringaiyo.pdf/$File/20260602sinringaiyo.pdf">概要書</a><br>(535KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.maff.go.jp/j/wpaper/" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（農林水産省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年5月29日</td>
+  <td class="left">自転車活用推進計画の報告</td>
+  <td nowrap><a href="20260529bicyclegaiyo.pdf/$File/20260529bicyclegaiyo.pdf">概要書</a><br>(736KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.mlit.go.jp/road/bicycleuse/" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（国土交通省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年5月29日</td>
+  <td class="left">令和７年度「ものづくり基盤技術の振興施策」に関する報告</td>
+  <td nowrap><a href="20260529monogaiyo.pdf/$File/20260529monogaiyo.pdf">概要書</a><br>(4.51MB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.meti.go.jp/report/whitepaper/mono/2026/index.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（経済産業省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年5月29日</td>
+  <td class="left">令和７年度「食料・農業・農村の動向」の報告<br>令和７年度「食料・農業・農村施策」の報告</td>
+  <td nowrap><a href="20260529shokuryogaiyo.pdf/$File/20260529shokuryogaiyo.pdf">概要書</a><br>(498KB)</td>
+  <td class="left"><A tabIndex=185 href="http://www.maff.go.jp/j/wpaper/index.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（農林水産省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年4月24日</td>
+  <td class="left">令和７年度「小規模企業の動向」に関する報告<br>令和８年度「小規模企業施策」についての文書</td>
+  <td rowspan="2"><a href="20260424kigyogaiyo.pdf/$File/20260424kigyogaiyo.pdf">概要書</a><br>(241KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.chusho.meti.go.jp/pamflet/hakusyo/syoukiboindex.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（中小企業庁HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年4月24日</td>
+  <td class="left">令和７年度「中小企業の動向」に関する報告<br>令和８年度「中小企業施策」についての文書</td>
+　<td class="left"><A tabIndex=185 href="https://www.chusho.meti.go.jp/pamflet/hakusyo/index.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（中小企業庁HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年4月17日</td>
+  <td class="left">令和７年団体規制状況の年次報告</td>
+  <td nowrap><a href="20260417habohogaiyo.pdf/$File/20260417habohogaiyo.pdf">概要書</a><br>(339KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.moj.go.jp/psia/kokkaihoukoku.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（公安調査庁HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年4月17日</td>
+  <td class="left">無差別大量殺人行為を行った団体の規制に関する法律の施行状況に関する報告</td>
+  <td nowrap><a href="20260417dantaigaiyo.pdf/$File/20260417dantaigaiyo.pdf">概要書</a><br>(435KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.moj.go.jp/psia/kokkaihoukoku.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（公安調査庁HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13><br>
+<A tabIndex=185 href="https://www.npa.go.jp/bureau/security/massmurder/houkoku2026.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（警察庁HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年4月10日</td>
+  <td class="left"><a href="20260410chotatsu.pdf/$File/20260410chotatsu.pdf">調達価格等に関する報告</a>
+　<br>※PDF形式(10.6MB)</td>
+  <td nowrap><a href="20260410chotatsugaiyo.pdf/$File/20260410chotatsugaiyo.pdf">概要書</a><br>(147KB)</td>
+  <td class="left">HPへの掲載なし</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年3月31日</td>
+  <td class="left">国民の保護に関する基本指針の変更の報告</td>
+  <td nowrap><a href="20260331kokuminhogogaiyo.pdf/$File/20260331kokuminhogogaiyo.pdf">概要書</a><br>(557KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.kokuminhogo.go.jp/gaiyou/yujikanrensei/kihonshishin.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（内閣官房HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年3月27日</td>
+  <td class="left">令和７年防衛省と民間企業との間の人事交流に関する報告</td>
+  <td nowrap><a href="20260327boeigaiyo.pdf/$File/20260327boeigaiyo.pdf">概要書</a><br>(391KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.mod.go.jp/j/profile/syogu/jinji_kouryu/index.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（防衛省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年3月27日</td>
+  <td class="left">観光立国推進基本計画の変更の報告</td>
+  <td nowrap><a href="20260327kankogaiyo.pdf/$File/20260327kankogaiyo.pdf">概要書</a><br>(409KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.mlit.go.jp/kankocho/seisaku_seido/kihonkeikaku.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（国土交通省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年3月27日</td>
+  <td class="left">アルコール健康障害対策推進基本計画の変更の報告</td>
+  <td nowrap><a href="20260327alcoholgaiyo.pdf/$File/20260327alcoholgaiyo.pdf">概要書</a><br>(746KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.mhlw.go.jp/stf/newpage_71947.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（厚生労働省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年3月27日</td>
+  <td class="left">通信傍受等に関する報告（令和７年）</td>
+  <td nowrap><a href="20260327hanzaigaiyo.pdf/$File/20260327hanzaigaiyo.pdf">概要書</a><br>(480KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.moj.go.jp/keiji1/keiji11_00033.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（法務省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年3月27日</td>
+  <td class="left">地方財政の状況報告書</td>
+  <td nowrap><a href="20260327chihozaiseigaiyo.pdf/$File/20260327chihozaiseigaiyo.pdf">概要書</a><br>(950KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.soumu.go.jp/menu_seisaku/hakusyo/index.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（総務省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年3月25日</td>
+  <td class="left">令和７年官民人事交流に関する年次報告</td>
+  <td nowrap><a href="20260325kanmingaiyo.pdf/$File/20260325kanmingaiyo.pdf">概要書</a><br>(466KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.jinji.go.jp/seisaku/kouryu/jisseki.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（人事院HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年3月17日</td>
+  <td class="left">令和８年行政執行法人の常勤職員数に関する報告</td>
+  <td nowrap><a href="20260317jokingaiyo.pdf/$File/20260317jokingaiyo.pdf">概要書</a><br>(365KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.soumu.go.jp/main_sosiki/gyoukan/kanri/satei2_06.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（総務省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年3月6日</td>
+  <td class="left">令和7年度第3・四半期における国庫の状況</td>
+  <td nowrap><a href="20260306kokkogaiyo.pdf/$File/20260306kokkogaiyo.pdf">概要書</a><br>(328KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.mof.go.jp/policy/exchequer/reference/exchequer_report/data.htm" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（財務省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年3月6日</td>
+  <td class="left">令和7年度第3・四半期における予算使用の状況</td>
+  <td nowrap><a href="20260306yosangaiyo.pdf/$File/20260306yosangaiyo.pdf">概要書</a><br>(280KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.mof.go.jp/policy/budget/report/budget_use/index.htm" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（財務省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年2月20日</td>
+  <td class="left">租税特別措置の適用実態調査の結果に関する報告書</td>
+  <td nowrap><a href="20260220sozeigaiyo.pdf/$File/20260220sozeigaiyo.pdf">概要書</a><br>(255KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.mof.go.jp/tax_policy/reference/stm_report/fy2025/index.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（財務省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年2月20日</td>
+  <td class="left">地方税における税負担軽減措置等の適用状況等に関する報告書</td>
+  <td nowrap><a href="20260220keigensochigaiyo.pdf/$File/20260220keigensochigaiyo.pdf">概要書</a><br>(592KB)</td>
+  <td class="left"><A tabIndex=185 href="http://www.soumu.go.jp/main_sosiki/jichi_zeisei/snews_back.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（総務省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年2月20日</td>
+  <td class="left">令和８年度地方団体の歳入歳出総額の見込額書</td>
+  <td nowrap><a href="20260220chizaigaiyo.pdf/$File/20260220chizaigaiyo.pdf">概要書</a><br>(516KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.soumu.go.jp/iken/zaisei.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（総務省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+<tr>
+  <td nowrap>令和8年2月20日</td>
+  <td class="left">行政組織の新設改廃状況報告書（令和7年10月21日から令和8年2月17日まで）</td>
+  <td nowrap><a href="20260220kaihaigaiyo.pdf/$File/20260220kaihaigaiyo.pdf">概要書</a><br>(333KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.cas.go.jp/jp/gaiyou/jimu/jinjikyoku/satei_01_03_02.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（内閣官房HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年2月13日</td>
+  <td class="left">令和６年度日本国有鉄道清算事業団の債務等の処理に関する法律に定める施策の実施の状況に関する報告</td>
+  <td nowrap><a href="20260213tetsudogaiyo.pdf/$File/20260213tetsudogaiyo.pdf">概要書</a><br>(331KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.mlit.go.jp/report/press/tetsudo05_hh_000160.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（国土交通省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年2月13日</td>
+  <td class="left">令和６年度国有林野事業に係る債務の処理に関する施策の実施の状況に関する報告</td>
+  <td nowrap><a href="20260213rinyagaiyo.pdf/$File/20260213rinyagaiyo.pdf">概要書</a><br>(254KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.rinya.maff.go.jp/j/kokuyu_rinya/kanri_keiei/saimushori/index.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（林野庁HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年2月10日</td>
+  <td class="left">国民生活安定緊急措置法の施行状況報告書（令和7年7月1日から令和8年1月31日まで）</td>
+  <td nowrap><a href="20260210kokumingaiyo.pdf/$File/20260210kokumingaiyo.pdf">概要書</a><br>(469KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.caa.go.jp/policies/policy/consumer_partnerships/price_measures/" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（消費者庁HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+<tr>
+  <td nowrap>令和8年1月23日</td>
+  <td class="left"><a href="20260123kounen.pdf/$File/20260123kounen.pdf">厚生年金保険の保険給付及び保険料の納付の特例等に関する法律の施行状況に関する報告</a>
+　<br>※PDF形式(262KB)</td>
+  <td nowrap><a href="20260123kounengaiyo.pdf/$File/20260123kounengaiyo.pdf">概要書</a><br>(215KB)</td>
+  <td class="left">HPへの掲載なし</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年1月23日</td>
+  <td class="left"><a href="20260123zaimu.pdf/$File/20260123zaimu.pdf">令和６年度特別会計財務書類</a>
+　<br>※PDF形式(2.89MB)</td>
+  <td nowrap><a href="20260123zaimugaiyo.pdf/$File/20260123zaimugaiyo.pdf">概要書</a><br>(250KB)</td>
+  <td class="left">HPへの掲載なし</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年1月22日</td>
+  <td class="left">国と地方の協議の場（令和7年度第3回）における協議の概要に関する報告書</td>
+  <td nowrap><a href="20260122kyogigaiyo.pdf/$File/20260122kyogigaiyo.pdf">概要書</a><br>(342KB)</td>
+  <td class="left"><A tabIndex=185 href="http://www.cas.go.jp/jp/seisaku/kyouginoba/" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（内閣官房HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和8年1月16日</td>
+  <td class="left">交通政策基本計画の報告</td>
+  <td nowrap><a href="20260116kotsukeikakugaiyo.pdf/$File/20260116kotsukeikakugaiyo.pdf">概要書</a><br>(3.56MB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.mlit.go.jp/report/press/sogo12_hh_000496.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（国土交通省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+<tr>
+  <td nowrap>令和7年12月23日</td>
+  <td class="left">サイバーセキュリティ戦略の変更の報告</td>
+  <td nowrap><a href="20251223cybergaiyo.pdf/$File/20251223cybergaiyo.pdf">概要書</a><br>(1.36MB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.cyber.go.jp/policy/jyuyo-bunsho/index.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（国家サイバー統括室HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+<tr>
+  <td nowrap>令和7年12月19日</td>
+  <td class="left">令和６年度「再犯の防止等に関する施策」に関する報告</td>
+  <td nowrap><a href="20251219saihangaiyo.pdf/$File/20251219saihangaiyo.pdf">概要書</a><br>(1.08MB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.moj.go.jp/hisho/saihanboushi/hisho04_00009.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（法務省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和7年12月17日</td>
+  <td class="left">国と地方の協議の場（令和7年度第2回）における協議の概要に関する報告書</td>
+  <td nowrap><a href="20251217kyogigaiyo.pdf/$File/20251217kyogigaiyo.pdf">概要書</a><br>(247KB)</td>
+  <td class="left"><A tabIndex=185 href="http://www.cas.go.jp/jp/seisaku/kyouginoba/" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（内閣官房HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr> 
+<tr>
+  <td nowrap>令和7年12月16日</td>
+  <td class="left"><a href="20251216nhk.pdf/$File/20251216nhk.pdf">日本放送協会令和６年度業務報告書及び同報告書に付する総務大臣の意見並びに監査委員会の意見書</a>
+　<br>※PDF形式(5.58MB)</td>
+  <td nowrap><a href="20251216nhkgaiyo.pdf/$File/20251216nhkgaiyo.pdf">概要書</a><br>(510KB)</td>
+  <td class="left">HPへの掲載なし</td>
+  <td></td>
+ </tr>
+<tr>
+  <td nowrap>令和7年12月16日</td>
+  <td class="left">東日本大震災からの復興の状況に関する報告</td>
+  <td nowrap><a href="20251216hukkogaiyo.pdf/$File/20251216hukkogaiyo.pdf">概要書</a><br>(1.06MB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.reconstruction.go.jp/topics/main-cat1/sub-cat1-1/20131029113414.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（復興庁HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr> 
+ <tr>
+  <td nowrap>令和7年12月12日</td>
+  <td class="left"><a href="20251212hiroshima.pdf/$File/20251212hiroshima.pdf">広島平和記念都市建設事業進捗状況報告書外13件（一の地方公共団体のみに適用される特別法報告書）</a>
+　<br>※PDF形式(751KB)</td>
+  <td nowrap><a href="20251212hiroshimagaiyo.pdf/$File/20251212hiroshimagaiyo.pdf">概要書</a><br>(474KB)</td>
+  <td class="left">HPへの掲載なし</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和7年12月12日</td>
+  <td class="left">通貨及び金融の調節に関する報告書</td>
+  <td nowrap><a href="20251212nichigingaiyo.pdf/$File/20251212nichigingaiyo.pdf">概要書</a><br>(415KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.boj.or.jp/mopo/diet/index.htm" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（日本銀行HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr> 
+ <tr>
+  <td nowrap>令和7年12月12日</td>
+  <td class="left">破綻金融機関の処理のために講じた措置の内容等に関する報告</td>
+  <td nowrap><a href="20251212frcgaiyo.pdf/$File/20251212frcgaiyo.pdf">概要書</a><br>(183KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.fsa.go.jp/common/diet/houkoku/index.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（金融庁HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+<tr>
+  <td nowrap>令和7年12月12日</td>
+  <td class="left">令和６年度「犯罪被害者等施策」に関する報告</td>
+  <td nowrap><a href="20251212hanzaigaiyo.pdf/$File/20251212hanzaigaiyo.pdf">概要書</a><br>(198KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.npa.go.jp/hanzaihigai/whitepaper/top.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（警察庁HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和7年12月5日</td>
+  <td class="left">令和7年度第2・四半期における国庫の状況</td>
+  <td nowrap><a href="20251205kokkogaiyo.pdf/$File/20251205kokkogaiyo.pdf">概要書</a><br>(343KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.mof.go.jp/policy/exchequer/reference/exchequer_report/data.htm" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（財務省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和7年12月5日</td>
+  <td class="left">令和7年度第2・四半期における予算使用の状況</td>
+  <td nowrap><a href="20251205yosangaiyo.pdf/$File/20251205yosangaiyo.pdf">概要書</a><br>(325KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.mof.go.jp/policy/budget/report/budget_use/index.htm" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（財務省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+<tr>
+  <td nowrap>令和7年11月21日</td>
+  <td class="left">公益財団法人防衛基盤整備協会令和６年度防衛装備移転円滑化基金に係る業務に関する報告書及び同報告書に付する防衛大臣の意見</td>
+  <td nowrap><a href="20251121piifboueikibangaiyo.pdf/$File/20251121piifboueikibangaiyo.pdf">概要書</a><br>(373KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.mod.go.jp/atla/hourei_dpb.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（防衛省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+<tr>
+  <td nowrap>令和7年11月21日</td>
+  <td class="left"><a href="20251121jogmeckoubutsu.pdf/$File/20251121jogmeckoubutsu.pdf">独立行政法人エネルギー・金属鉱物資源機構令和６年度重要鉱物に係る安定供給確保支援基金事業に関する報告書及び同報告書に付する経済産業大臣の意見</a>
+　<br>※PDF形式(17.1MB)</td>
+  <td nowrap><a href="20251121jogmeckoubutsugaiyo.pdf/$File/20251121jogmeckoubutsugaiyo.pdf">概要書</a><br>(225KB)</td>
+  <td class="left">HPへの掲載なし</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和7年11月21日</td>
+  <td class="left"><a href="20251121jogmecgas.pdf/$File/20251121jogmecgas.pdf">独立行政法人エネルギー・金属鉱物資源機構令和６年度可燃性天然ガスに係る安定供給確保支援基金事業に関する報告書及び同報告書に付する経済産業大臣の意見</a>
+　<br>※PDF形式(1.18MB)</td>
+  <td nowrap><a href="20251121jogmecgasgaiyo.pdf/$File/20251121jogmecgasgaiyo.pdf">概要書</a><br>(270KB)</td>
+  <td class="left">HPへの掲載なし</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和7年11月21日</td>
+  <td class="left"><a href="20251121nedoantei.pdf/$File/20251121nedoantei.pdf">国立研究開発法人新エネルギー・産業技術総合開発機構令和６年度安定供給確保支援基金事業に関する報告書及び同報告書に付する経済産業大臣の意見</a>
+　<br>※PDF形式(768KB)</td>
+  <td nowrap><a href="20251121nedoanteigaiyo.pdf/$File/20251121nedoanteigaiyo.pdf">概要書</a><br>(276KB)</td>
+  <td class="left">HPへの掲載なし</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和7年11月21日</td>
+  <td class="left"><a href="20251121nedobio.pdf/$File/20251121nedobio.pdf">国立研究開発法人新エネルギー・産業技術総合開発機構令和６年度特定公募型研究開発業務（バイオものづくり革命推進事業）に関する報告書及び同報告書に付する経済産業大臣の意見</a>
+　<br>※PDF形式(1.57MB)</td>
+  <td nowrap><a href="20251121nedobiogaiyo.pdf/$File/20251121nedobiogaiyo.pdf">概要書</a><br>(243KB)</td>
+  <td class="left">HPへの掲載なし</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和7年11月21日</td>
+  <td class="left"><a href="20251121nedodeep.pdf/$File/20251121nedodeep.pdf">国立研究開発法人新エネルギー・産業技術総合開発機構令和６年度特定公募型研究開発業務（ディープテック・スタートアップ支援基金事業）に関する報告書及び同報告書に付する経済産業大臣の意見</a>
+　<br>※PDF形式(856KB)</td>
+  <td nowrap><a href="20251121nedodeepgaiyo.pdf/$File/20251121nedodeepgaiyo.pdf">概要書</a><br>(295KB)</td>
+  <td class="left">HPへの掲載なし</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和7年11月21日</td>
+  <td class="left"><a href="20251121nedohandotai.pdf/$File/20251121nedohandotai.pdf">国立研究開発法人新エネルギー・産業技術総合開発機構令和６年度特定半導体基金事業に関する報告書及び同報告書に付する経済産業大臣の意見</a>
+　<br>※PDF形式(605KB)</td>
+  <td nowrap><a href="20251121nedohandotaigaiyo.pdf/$File/20251121nedohandotaigaiyo.pdf">概要書</a><br>(242KB)</td>
+  <td class="left">HPへの掲載なし</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和7年11月21日</td>
+  <td class="left"><a href="20251121nedokeizai.pdf/$File/20251121nedokeizai.pdf">国立研究開発法人新エネルギー・産業技術総合開発機構令和６年度特定公募型研究開発業務（経済安全保障重要技術育成プログラム基金事業）に関する報告書及び同報告書に付する経済産業大臣の意見</a>
+　<br>※PDF形式(1.44MB)</td>
+  <td nowrap><a href="20251121nedokeizaigaiyo.pdf/$File/20251121nedokeizaigaiyo.pdf">概要書</a><br>(214KB)</td>
+  <td class="left">HPへの掲載なし</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和7年11月21日</td>
+  <td class="left"><a href="20251121nedogreen.pdf/$File/20251121nedogreen.pdf">国立研究開発法人新エネルギー・産業技術総合開発機構令和６年度特定公募型研究開発業務（グリーンイノベーション基金事業）に関する報告書及び同報告書に付する経済産業大臣の意見</a>
+　<br>※PDF形式(1.90MB)</td>
+  <td nowrap><a href="20251121nedogreengaiyo.pdf/$File/20251121nedogreengaiyo.pdf">概要書</a><br>(260KB)</td>
+  <td class="left">HPへの掲載なし</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和7年11月21日</td>
+  <td class="left"><a href="20251121nedopost5g.pdf/$File/20251121nedopost5g.pdf">国立研究開発法人新エネルギー・産業技術総合開発機構令和６年度特定公募型研究開発業務（ポスト５Ｇ情報通信システム基盤強化研究開発）に関する報告書及び同報告書に付する経済産業大臣の意見</a>
+　<br>※PDF形式(1.18MB)</td>
+  <td nowrap><a href="20251121nedopost5ggaiyo.pdf/$File/20251121nedopost5ggaiyo.pdf">概要書</a><br>(262KB)</td>
+  <td class="left">HPへの掲載なし</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和7年11月21日</td>
+  <td class="left"><a href="20251121nedomoonshot.pdf/$File/20251121nedomoonshot.pdf">国立研究開発法人新エネルギー・産業技術総合開発機構令和６年度特定公募型研究開発業務（ムーンショット型研究開発）に関する報告書及び同報告書に付する経済産業大臣の意見</a>
+　<br>※PDF形式(1.29MB)</td>
+  <td nowrap><a href="20251121nedomoonshotgaiyo.pdf/$File/20251121nedomoonshotgaiyo.pdf">概要書</a><br>(240KB)</td>
+  <td class="left">HPへの掲載なし</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和7年11月21日</td>
+  <td class="left">一般財団法人肥料経済研究所令和６年度安定供給確保支援法人基金（肥料原料備蓄対策事業基金）に係る業務に関する報告書及び同報告書に付する内閣総理大臣及び農林水産大臣の意見</td>
+  <td nowrap><a href="20251121hikeikengaiyo.pdf/$File/20251121hikeikengaiyo.pdf">概要書</a><br>(379KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.maff.go.jp/j/seisan/sien/sizai/s_hiryo/221228.html#kokkaiho" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（農林水産省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和7年11月21日</td>
+  <td class="left">国立研究開発法人農業・食品産業技術総合研究機構令和６年度特定公募型研究開発業務（ムーンショット型研究開発）に関する報告書及び同報告書に付する農林水産大臣の意見</td>
+  <td nowrap><a href="20251121naromoonshotgaiyo.pdf/$File/20251121naromoonshotgaiyo.pdf">概要書</a><br>(287KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.affrc.maff.go.jp/docs/moonshot/moonshot.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（農林水産省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和7年11月21日</td>
+  <td class="left">国立研究開発法人医薬基盤・健康・栄養研究所令和６年度安定供給確保支援独立行政法人基金（抗菌薬原薬国産化支援基金）に係る業務に関する報告書及び同報告書に付する厚生労働大臣の意見</td>
+  <td nowrap><a href="20251121nibiohngaiyo.pdf/$File/20251121nibiohngaiyo.pdf">概要書</a><br>(341KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/keizaianpo_koukinseizai.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（厚生労働省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和7年11月21日</td>
+  <td class="left">独立行政法人大学改革支援・学位授与機構令和６年度大学・高専機能強化支援事業に関する報告書及び同報告書に付する文部科学大臣の意見</td>
+  <td nowrap><a href="20251121niadgaiyo.pdf/$File/20251121niadgaiyo.pdf">概要書</a><br>(272KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.mext.go.jp/a_menu/kaikei/kokkai/00000_00002.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（文部科学省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和7年11月21日</td>
+  <td class="left">独立行政法人日本スポーツ振興センター令和６年度スポーツ振興投票に係る収益の使途に関する報告書及び同報告書に付する文部科学大臣の意見</td>
+  <td nowrap><a href="20251121totogaiyo.pdf/$File/20251121totogaiyo.pdf">概要書</a><br>(279KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.mext.go.jp/sports/b_menu/sports/mcatetop01/list/detail/1411476.htm" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（スポーツ庁HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和7年11月21日</td>
+  <td class="left">独立行政法人日本学術振興会令和６年度学術研究助成業務に関する報告書及び同報告書に付する文部科学大臣の意見</td>
+  <td nowrap><a href="20251121jspsgakujutsugaiyo.pdf/$File/20251121jspsgakujutsugaiyo.pdf">概要書</a><br>(275KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.mext.go.jp/a_menu/kaikei/kokkai/1337322.htm" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（文部科学省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和7年11月21日</td>
+  <td class="left">独立行政法人日本学術振興会令和６年度特定公募型研究開発業務（地域中核・特色ある研究大学強化促進事業）に関する報告書及び同報告書に付する文部科学大臣の意見</td>
+  <td nowrap><a href="20251121jspschiikigaiyo.pdf/$File/20251121jspschiikigaiyo.pdf">概要書</a><br>(491KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.mext.go.jp/a_menu/kaikei/kokkai/1337322_00001.htm" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（文部科学省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和7年11月21日</td>
+  <td class="left">国立研究開発法人科学技術振興機構令和６年度特定公募型研究開発業務（先端国際共同研究推進基金）に関する報告書及び同報告書に付する文部科学大臣の意見</td>
+  <td nowrap><a href="20251121jstsentangaiyo.pdf/$File/20251121jstsentangaiyo.pdf">概要書</a><br>(448KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.mext.go.jp/a_menu/kaikei/kokkai/00000_00004.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（文部科学省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和7年11月21日</td>
+  <td class="left">国立研究開発法人科学技術振興機構令和６年度特定公募型研究開発業務（創発的研究）に関する報告書及び同報告書に付する文部科学大臣の意見</td>
+  <td nowrap><a href="20251121jstsouhatsugaiyo.pdf/$File/20251121jstsouhatsugaiyo.pdf">概要書</a><br>(346KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.mext.go.jp/a_menu/kaikei/kokkai/mext_01059.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（文部科学省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和7年11月21日</td>
+  <td class="left">国立研究開発法人科学技術振興機構令和６年度特定公募型研究開発業務（革新的GX技術創出）に関する報告書及び同報告書に付する文部科学大臣の意見</td>
+  <td nowrap><a href="20251121jstgxgaiyo.pdf/$File/20251121jstgxgaiyo.pdf">概要書</a><br>(286KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.mext.go.jp/a_menu/kaikei/kokkai/00000_00001.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（文部科学省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和7年11月21日</td>
+  <td class="left">国立研究開発法人科学技術振興機構令和６年度特定公募型研究開発業務（経済安全保障重要技術育成プログラム）に関する報告書及び同報告書に付する文部科学大臣の意見</td>
+  <td nowrap><a href="20251121jstkeizaigaiyo.pdf/$File/20251121jstkeizaigaiyo.pdf">概要書</a><br>(445KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.mext.go.jp/a_menu/kaikei/kokkai/00000.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（文部科学省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和7年11月21日</td>
+  <td class="left">国立研究開発法人科学技術振興機構令和６年度特定公募型研究開発業務（ムーンショット型研究開発）に関する報告書及び同報告書に付する文部科学大臣の意見</td>
+  <td nowrap><a href="20251121jstmoonshotgaiyo.pdf/$File/20251121jstmoonshotgaiyo.pdf">概要書</a><br>(420KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.mext.go.jp/a_menu/kaikei/kokkai/1422757.htm" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（文部科学省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和7年11月21日</td>
+  <td class="left">国立研究開発法人科学技術振興機構令和６年度特定公募型研究開発業務（大学発新産業創出基金事業）に関する報告書及び同報告書に付する文部科学大臣の意見</td>
+  <td nowrap><a href="20251121jstdaigakugaiyo.pdf/$File/20251121jstdaigakugaiyo.pdf">概要書</a><br>(430KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.mext.go.jp/a_menu/kaikei/kokkai/1337322_00002.htm" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（文部科学省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和7年11月21日</td>
+  <td class="left"><a href="20251121nictjouhou.pdf/$File/20251121nictjouhou.pdf">国立研究開発法人情報通信研究機構令和６年度情報通信研究開発基金に係る業務に関する報告書及び同報告書に付する総務大臣の意見</a>
+　<br>※PDF形式(16.3MB)</td>
+  <td nowrap><a href="20251121nictjouhougaiyo.pdf/$File/20251121nictjouhougaiyo.pdf">概要書</a><br>(332KB)</td>
+  <td class="left">HPへの掲載なし</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和7年11月21日</td>
+  <td class="left">国立研究開発法人宇宙航空研究開発機構令和６年度宇宙戦略基金に係る業務に関する報告書及び同報告書に付する内閣総理大臣、総務大臣、文部科学大臣及び経済産業大臣の意見</td>
+  <td nowrap><a href="20251121jaxagaiyo.pdf/$File/20251121jaxagaiyo.pdf">概要書</a><br>(302KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www8.cao.go.jp/space/kikin/kikin.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（内閣府HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+<tr>
+  <td nowrap>令和7年11月21日</td>
+  <td class="left">国立研究開発法人日本医療研究開発機構令和６年度特定公募型研究開発業務（先端国際共同研究推進基金）に関する報告書及び同報告書に付する内閣総理大臣、文部科学大臣、厚生労働大臣及び経済産業大臣の意見</td>
+  <td nowrap><a href="20251121amedsentangaiyo.pdf/$File/20251121amedsentangaiyo.pdf">概要書</a><br>(431KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www8.cao.go.jp/iryou/ms.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（内閣府HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和7年11月21日</td>
+  <td class="left">国立研究開発法人日本医療研究開発機構令和６年度特定公募型研究開発業務（革新的研究開発推進基金）に関する報告書及び同報告書に付する内閣総理大臣、文部科学大臣、厚生労働大臣及び経済産業大臣の意見</td>
+  <td nowrap><a href="20251121amedkakushingaiyo.pdf/$File/20251121amedkakushingaiyo.pdf">概要書</a><br>(471KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www8.cao.go.jp/iryou/ms.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（内閣府HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和7年11月18日</td>
+  <td class="left">令和６年度物品増減及び現在額総報告</td>
+  <td nowrap><a href="20251118buppingaiyo.pdf/$File/20251118buppingaiyo.pdf">概要書</a><br>(222KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.bb.mof.go.jp/archive/reiwa6.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（財務省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和7年11月18日</td>
+  <td class="left">令和６年度国の債権の現在額総報告</td>
+  <td nowrap><a href="20251118saikengaiyo.pdf/$File/20251118saikengaiyo.pdf">概要書</a><br>(207KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.bb.mof.go.jp/archive/reiwa6.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（財務省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和7年11月11日</td>
+  <td class="left">令和６年度「政府が講じた死因究明等に関する施策」の報告</td>
+  <td nowrap><a href="20251111shiinkyumeigaiyo.pdf/$File/20251111shiinkyumeigaiyo.pdf">概要書</a><br>(327KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.mhlw.go.jp/stf/wp/hakusyo/shiinkyuumei/25/index.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（厚生労働省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和7年11月7日</td>
+  <td class="left">海賊行為の処罰及び海賊行為への対処に関する法律に基づく海賊対処行動についての報告</td>
+  <td nowrap><a href="20251107kaizokugaiyo.pdf/$File/20251107kaizokugaiyo.pdf">概要書</a><br>(294KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.mod.go.jp/j/approach/kokusai_heiwa/somaria/index.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（防衛省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和7年11月7日</td>
+  <td class="left">シナイ半島国際平和協力業務の実施の状況の報告</td>
+  <td rowspan="2"><a href="20251107pkogaiyo.pdf/$File/20251107pkogaiyo.pdf">概要書</a><br>(209KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.cao.go.jp/pko/pko_j/data/data04.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（内閣府HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td nowrap>令和7年11月7日</td>
+  <td class="left">シナイ半島国際平和協力業務実施計画の変更の報告</td>
+　<td class="left"><A tabIndex=185 href="https://www.cao.go.jp/pko/pko_j/data/data02.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（内閣府HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+<tr>
+  <td nowrap>令和7年11月5日</td>
+  <td class="left">令和６年度の国立国会図書館の経営及び財政状態についての報告書</td>
+  <td nowrap><a href="20251105toshokangaiyo.pdf/$File/20251105toshokangaiyo.pdf">概要書</a><br>(247KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.ndl.go.jp/jp/publication/annual/index.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（国立国会図書館HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+<tr>
+  <td nowrap>令和7年10月28日</td>
+  <td class="left">令和６年度「我が国における過労死等の概要及び政府が過労死等の防止のために講じた施策の状況」に関する報告</td>
+  <td nowrap><a href="20251028karoushigaiyo.pdf/$File/20251028karoushigaiyo.pdf">概要書</a><br>(2.53MB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.mhlw.go.jp/stf/wp/hakusyo/karoushi/25/index.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（厚生労働省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+<tr>
+  <td nowrap>令和7年10月24日</td>
+  <td class="left">令和６年度「我が国における自殺の概況及び自殺対策の実施状況」に関する報告</td>
+  <td nowrap><a href="20251024jisatsugaiyo.pdf/$File/20251024jisatsugaiyo.pdf">概要書</a><br>(2.43MB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/hukushi_kaigo/seikatsuhogo/jisatsu/jisatsuhakusyo.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（厚生労働省HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr> 
+<tr>
+  <td nowrap>令和7年10月24日</td>
+  <td class="left">行政組織の新設改廃状況報告書（令和7年8月1日から同年10月20日まで）</td>
+  <td nowrap><a href="20251024kaihaigaiyo.pdf/$File/20251024kaihaigaiyo.pdf">概要書</a><br>(318KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.cas.go.jp/jp/gaiyou/jimu/jinjikyoku/satei_01_03_02.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（内閣官房HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr>
+<tr>
+  <td nowrap>令和7年9月26日</td>
+  <td class="left">会計検査院法第30条の2の規定に基づく報告書<br>「国際機関等に対する拠出等の状況について」</td>
+  <td nowrap><a href="20250926kensaingaiyo.pdf/$File/20250926kensaingaiyo.pdf">概要書</a><br>(229KB)</td>
+  <td class="left"><A tabIndex=185 href="https://www.jbaudit.go.jp/report/zuiji/index.html" title="別ウィンドウで開きます"target="_blank">報告書等</A><br>（会計検査院HP）<IMG alt=別ウィンドウで開きます src="win.jpg/$File/win.jpg" width=13 height=13></td>
+  <td></td>
+ </tr> 
+  </table>
+<p class="right"><a href="#top">ページのトップに戻る</a></p>
+<div class="setsumei">
+<p class="left">このページについての問合せ：衆議院議事部議案課　TEL03-3581-5111　内線32451</p>
+<p class="left">（提出された報告書等については各府省庁までお問い合わせ下さい。）</p>
+</div>
+</div>
+</DIV>
+<DIV id="FooterBlock">
+<UL id="FooterLine1">
+              <LI><A tabindex="1001" href="/internet/itdb_annai.nsf/html/statics/guide.htm" title="ホームページについて">ホームページについて</A></LI>
+              <LI><A tabindex="1002" href="/internet/itdb_annai.nsf/html/statics/accessibility.htm" title="Webアクセシビリティ">Webアクセシビリティ</A></LI>
+              <LI><A tabindex="1003" href="/internet/itdb_annai.nsf/html/statics/link.html" title="リンク・著作権等について">リンク・著作権等について</A></LI>
+              <LI><A tabindex="1004" href="/internet/itdb_annai.nsf/html/statics/mail.htm" title="お問い合わせ">お問い合わせ</A></LI>
+</UL>
+<DIV id="FooterLine2">
+              衆議院<BR>
+              <ADDRESS>〒100-0014 東京都千代田区永田町1-7-1</ADDRESS>電話（代表）03-3581-5111<BR>
+              <A href="/internet/itdb_annai.nsf/html/statics/kokkaimap.htm">案内図</a>
+              <P>Copyright &copy; Shugiin All Rights Reserved.</P>
+</DIV>
+</DIV>
+<script src="//c.marsflag.com/mf/mfx/1.0-latest/js/mfx-sbox.js" charset="UTF-8"></script>
+</BODY>
+</html>

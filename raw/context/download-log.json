@@ -1,0 +1,88 @@
+[
+  {
+    "url": "https://api.worldbank.org/v2/country/JPN/indicator/NY.GDP.MKTP.KN?format=json&per_page=100",
+    "local_path": "raw/context/worldbank-gdp-real.json",
+    "retrieved_at": "2026-09-22T09:53:22.409860+00:00",
+    "content_type": "application/json;charset=utf-8",
+    "status": 200,
+    "sha256": "0a8a07825f440d40749a66944e519314d6707278eff5c1ff688be9493c5e84cb",
+    "bytes": 13618,
+    "availability": "downloaded"
+  },
+  {
+    "url": "https://www.mhlw.go.jp/toukei/itiran/roudou/monthly/r07/2512r/2512r.html",
+    "local_path": "raw/context/mhlw-wage-index.html",
+    "retrieved_at": "2026-09-22T09:53:22.990596+00:00",
+    "content_type": "text/html",
+    "status": 200,
+    "sha256": "2bb38e1e161e16f26477658e16ba3878b0307da56ad088ebf1acb875bdd85fe2",
+    "bytes": 11970,
+    "availability": "downloaded"
+  },
+  {
+    "url": "https://www.stat.go.jp/data/cpi/sokuhou/nen/index-z.htm",
+    "local_path": "raw/context/cpi-annual.html",
+    "retrieved_at": "2026-09-22T09:53:23.081683+00:00",
+    "content_type": "text/html",
+    "status": 200,
+    "sha256": "db00591ac26cf527ecb39b0c1a51f36f45ef464129ecee684989d097bd6cd9dc",
+    "bytes": 13548,
+    "availability": "downloaded"
+  },
+  {
+    "url": "https://www.meti.go.jp/main/rules.html",
+    "local_path": "raw/context/meti-terms.html",
+    "retrieved_at": "2026-09-22T09:53:23.419229+00:00",
+    "availability": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.mhlw.go.jp/toukei/itiran/roudou/monthly/r07/2512r/xls/2512t01r.xlsx",
+    "local_path": "raw/context/wages-2025-final.xlsx",
+    "retrieved_at": "2026-09-22T09:54:29.577329+00:00",
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "status": 200,
+    "sha256": "6eb5b388ce24efcf38d766e7363edc99bd7fb18c42d67a25cbd052f768770bf2",
+    "bytes": 26036,
+    "availability": "downloaded"
+  },
+  {
+    "url": "https://www.mhlw.go.jp/toukei/itiran/roudou/monthly/r07/2512r/dl/pdf2512r.pdf",
+    "local_path": "raw/context/wages-2025-final.pdf",
+    "retrieved_at": "2026-09-22T09:54:29.707364+00:00",
+    "content_type": "application/pdf",
+    "status": 200,
+    "sha256": "ddeda40817b9edf89efaa3988414921ea8cb8bc6a959d44668bd8a1605c991d7",
+    "bytes": 927300,
+    "availability": "downloaded"
+  },
+  {
+    "url": "https://www.stat.go.jp/data/cpi/1.htm",
+    "local_path": "raw/context/cpi-results.html",
+    "retrieved_at": "2026-09-22T09:54:29.884065+00:00",
+    "content_type": "text/html",
+    "status": 200,
+    "sha256": "f9852e3eeba3cd2c778fa872b8d23bd1659e211860bc2bfbf1fca5d5a9ba77ab",
+    "bytes": 27698,
+    "availability": "downloaded"
+  },
+  {
+    "url": "https://api.worldbank.org/v2/indicator/NY.GDP.MKTP.KN?format=json",
+    "local_path": "raw/context/worldbank-gdp-metadata.json",
+    "retrieved_at": "2026-09-22T09:54:30.120803+00:00",
+    "content_type": "application/json;charset=utf-8",
+    "status": 200,
+    "sha256": "70eaa4a629f8784882e750473324d826b8bdf201b2f625848721290454de256a",
+    "bytes": 995,
+    "availability": "downloaded"
+  },
+  {
+    "url": "https://www.stat.go.jp/data/cpi/2020/csv/zmi2020aa.csv",
+    "local_path": "raw/context/cpi-monthly-2020base.csv",
+    "content_type": "application/octet-stream",
+    "retrieved_at": "2026-09-22T09:55:37.499071+00:00",
+    "sha256": "960d55d484dd0c98ff107bd766e521cba600d75d0fa0424cfe54eea075e76b77",
+    "bytes": 525576,
+    "availability": "downloaded"
+  }
+]

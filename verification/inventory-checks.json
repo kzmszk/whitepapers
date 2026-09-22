@@ -1,0 +1,17 @@
+{
+  "catalog_entries": 97,
+  "verified_unique_local_artifacts": 80,
+  "original_files": 69,
+  "original_formats": {
+    ".html": 15,
+    ".csv": 3,
+    ".pdf": 8,
+    ".xlsx": 40,
+    ".json": 2,
+    ".txt": 1
+  },
+  "original_bytes": 27903209,
+  "reference_images": 7,
+  "missing_or_discovered_only": 17,
+  "all_listed_local_sha256_match": true
+}

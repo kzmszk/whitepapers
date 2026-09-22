@@ -1,0 +1,747 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-09-22",
+  "comparison_period": [
+    2020,
+    2025
+  ],
+  "period_type": "calendar_year",
+  "series": [
+    {
+      "id": "cpi_all",
+      "label": "消費者物価・総合",
+      "publisher": "総務省統計局",
+      "unit": "2020年=100",
+      "period_type": "calendar_year",
+      "aggregation": "各年1〜12月の月次指数の単純平均（丸め前）",
+      "source_id": "stat-cpi-2020-monthly",
+      "item_code": "0001",
+      "data": [
+        {
+          "year": 2020,
+          "value": 100.00033333333333
+        },
+        {
+          "year": 2021,
+          "value": 99.75533333333334
+        },
+        {
+          "year": 2022,
+          "value": 102.26716666666667
+        },
+        {
+          "year": 2023,
+          "value": 105.58933333333333
+        },
+        {
+          "year": 2024,
+          "value": 108.47966666666666
+        },
+        {
+          "year": 2025,
+          "value": 111.94375
+        }
+      ]
+    },
+    {
+      "id": "cpi_energy",
+      "label": "消費者物価・エネルギー",
+      "publisher": "総務省統計局",
+      "unit": "2020年=100",
+      "period_type": "calendar_year",
+      "aggregation": "各年1〜12月の月次指数の単純平均（丸め前）",
+      "source_id": "stat-cpi-2020-monthly",
+      "item_code": "0167",
+      "data": [
+        {
+          "year": 2020,
+          "value": 100.00016666666667
+        },
+        {
+          "year": 2021,
+          "value": 103.94441666666667
+        },
+        {
+          "year": 2022,
+          "value": 121.67941666666667
+        },
+        {
+          "year": 2023,
+          "value": 114.36316666666667
+        },
+        {
+          "year": 2024,
+          "value": 118.74516666666666
+        },
+        {
+          "year": 2025,
+          "value": 123.01566666666666
+        }
+      ]
+    },
+    {
+      "id": "cpi_ex_rent",
+      "label": "消費者物価・持家の帰属家賃を除く総合",
+      "publisher": "総務省統計局",
+      "unit": "2020年=100",
+      "period_type": "calendar_year",
+      "aggregation": "各年1〜12月の月次指数の単純平均（丸め前）",
+      "source_id": "stat-cpi-2020-monthly",
+      "item_code": "0163",
+      "data": [
+        {
+          "year": 2020,
+          "value": 100.00058333333334
+        },
+        {
+          "year": 2021,
+          "value": 99.68741666666666
+        },
+        {
+          "year": 2022,
+          "value": 102.6615
+        },
+        {
+          "year": 2023,
+          "value": 106.59141666666666
+        },
+        {
+          "year": 2024,
+          "value": 109.98058333333333
+        },
+        {
+          "year": 2025,
+          "value": 114.04033333333334
+        }
+      ]
+    },
+    {
+      "id": "fuel_imports",
+      "label": "鉱物性燃料の輸入額",
+      "publisher": "財務省・税関",
+      "unit": "千円",
+      "period_type": "calendar_year",
+      "aggregation": "公式暦年計を使用",
+      "source_id": "trade-mof-products-import-annual",
+      "item_code": "3",
+      "source_column": "概況品コード3・金額（0始まり33列）",
+      "data": [
+        {
+          "year": 1988,
+          "value": 4909225080
+        },
+        {
+          "year": 1989,
+          "value": 5916178537
+        },
+        {
+          "year": 1990,
+          "value": 8083186732
+        },
+        {
+          "year": 1991,
+          "value": 7365062591
+        },
+        {
+          "year": 1992,
+          "value": 6677511188
+        },
+        {
+          "year": 1993,
+          "value": 5474189383
+        },
+        {
+          "year": 1994,
+          "value": 4890437475
+        },
+        {
+          "year": 1995,
+          "value": 5022873193
+        },
+        {
+          "year": 1996,
+          "value": 6587731789
+        },
+        {
+          "year": 1997,
+          "value": 7542455819
+        },
+        {
+          "year": 1998,
+          "value": 5623158810
+        },
+        {
+          "year": 1999,
+          "value": 5646301223
+        },
+        {
+          "year": 2000,
+          "value": 8316638006
+        },
+        {
+          "year": 2001,
+          "value": 8523657400
+        },
+        {
+          "year": 2002,
+          "value": 8173924898
+        },
+        {
+          "year": 2003,
+          "value": 9349924242
+        },
+        {
+          "year": 2004,
+          "value": 10670589631
+        },
+        {
+          "year": 2005,
+          "value": 14559732345
+        },
+        {
+          "year": 2006,
+          "value": 18656553060
+        },
+        {
+          "year": 2007,
+          "value": 20206104914
+        },
+        {
+          "year": 2008,
+          "value": 27658249531
+        },
+        {
+          "year": 2009,
+          "value": 14201601552
+        },
+        {
+          "year": 2010,
+          "value": 17397958076
+        },
+        {
+          "year": 2011,
+          "value": 21816149808
+        },
+        {
+          "year": 2012,
+          "value": 24088213847
+        },
+        {
+          "year": 2013,
+          "value": 27443829586
+        },
+        {
+          "year": 2014,
+          "value": 27692447035
+        },
+        {
+          "year": 2015,
+          "value": 18218145636
+        },
+        {
+          "year": 2016,
+          "value": 12052006637
+        },
+        {
+          "year": 2017,
+          "value": 15839991985
+        },
+        {
+          "year": 2018,
+          "value": 19294048227
+        },
+        {
+          "year": 2019,
+          "value": 16950647656
+        },
+        {
+          "year": 2020,
+          "value": 11254098773
+        },
+        {
+          "year": 2021,
+          "value": 17007139187
+        },
+        {
+          "year": 2022,
+          "value": 33699030785
+        },
+        {
+          "year": 2023,
+          "value": 27345603129
+        },
+        {
+          "year": 2024,
+          "value": 25506143282
+        },
+        {
+          "year": 2025,
+          "value": 22144975571
+        }
+      ],
+      "notes": "名目金額。輸入CIF・輸出FOB。2025年は確々報値。"
+    },
+    {
+      "id": "exports",
+      "label": "日本の輸出額",
+      "publisher": "財務省・税関",
+      "unit": "千円",
+      "period_type": "calendar_year",
+      "aggregation": "公式暦年計を使用",
+      "source_id": "trade-mof-world-annual",
+      "item_code": null,
+      "source_column": "Exp-Total",
+      "data": [
+        {
+          "year": 1979,
+          "value": 22531538859
+        },
+        {
+          "year": 1980,
+          "value": 29382471938
+        },
+        {
+          "year": 1981,
+          "value": 33468984502
+        },
+        {
+          "year": 1982,
+          "value": 34432500947
+        },
+        {
+          "year": 1983,
+          "value": 34909268599
+        },
+        {
+          "year": 1984,
+          "value": 40325293701
+        },
+        {
+          "year": 1985,
+          "value": 41955659471
+        },
+        {
+          "year": 1986,
+          "value": 35289713887
+        },
+        {
+          "year": 1987,
+          "value": 33315191383
+        },
+        {
+          "year": 1988,
+          "value": 33939183158
+        },
+        {
+          "year": 1989,
+          "value": 37822534626
+        },
+        {
+          "year": 1990,
+          "value": 41456939674
+        },
+        {
+          "year": 1991,
+          "value": 42359892974
+        },
+        {
+          "year": 1992,
+          "value": 43012281444
+        },
+        {
+          "year": 1993,
+          "value": 40202448725
+        },
+        {
+          "year": 1994,
+          "value": 40497552697
+        },
+        {
+          "year": 1995,
+          "value": 41530895121
+        },
+        {
+          "year": 1996,
+          "value": 44731311206
+        },
+        {
+          "year": 1997,
+          "value": 50937991859
+        },
+        {
+          "year": 1998,
+          "value": 50645003938
+        },
+        {
+          "year": 1999,
+          "value": 47547556241
+        },
+        {
+          "year": 2000,
+          "value": 51654197760
+        },
+        {
+          "year": 2001,
+          "value": 48979244311
+        },
+        {
+          "year": 2002,
+          "value": 52108955735
+        },
+        {
+          "year": 2003,
+          "value": 54548350172
+        },
+        {
+          "year": 2004,
+          "value": 61169979094
+        },
+        {
+          "year": 2005,
+          "value": 65656544157
+        },
+        {
+          "year": 2006,
+          "value": 75246173392
+        },
+        {
+          "year": 2007,
+          "value": 83931437612
+        },
+        {
+          "year": 2008,
+          "value": 81018087607
+        },
+        {
+          "year": 2009,
+          "value": 54170614088
+        },
+        {
+          "year": 2010,
+          "value": 67399626696
+        },
+        {
+          "year": 2011,
+          "value": 65546474948
+        },
+        {
+          "year": 2012,
+          "value": 63747572215
+        },
+        {
+          "year": 2013,
+          "value": 69774192950
+        },
+        {
+          "year": 2014,
+          "value": 73093028311
+        },
+        {
+          "year": 2015,
+          "value": 75613928862
+        },
+        {
+          "year": 2016,
+          "value": 70035770383
+        },
+        {
+          "year": 2017,
+          "value": 78286457048
+        },
+        {
+          "year": 2018,
+          "value": 81478752674
+        },
+        {
+          "year": 2019,
+          "value": 76931664915
+        },
+        {
+          "year": 2020,
+          "value": 68399121047
+        },
+        {
+          "year": 2021,
+          "value": 83091420293
+        },
+        {
+          "year": 2022,
+          "value": 98173612089
+        },
+        {
+          "year": 2023,
+          "value": 100873049041
+        },
+        {
+          "year": 2024,
+          "value": 107087511087
+        },
+        {
+          "year": 2025,
+          "value": 110400454682
+        }
+      ],
+      "notes": "名目金額。輸入CIF・輸出FOB。2025年は確々報値。"
+    },
+    {
+      "id": "imports",
+      "label": "日本の輸入額",
+      "publisher": "財務省・税関",
+      "unit": "千円",
+      "period_type": "calendar_year",
+      "aggregation": "公式暦年計を使用",
+      "source_id": "trade-mof-world-annual",
+      "item_code": null,
+      "source_column": "Imp-Total",
+      "data": [
+        {
+          "year": 1979,
+          "value": 24245350997
+        },
+        {
+          "year": 1980,
+          "value": 31995325202
+        },
+        {
+          "year": 1981,
+          "value": 31464145741
+        },
+        {
+          "year": 1982,
+          "value": 32656302574
+        },
+        {
+          "year": 1983,
+          "value": 30014784056
+        },
+        {
+          "year": 1984,
+          "value": 32321126640
+        },
+        {
+          "year": 1985,
+          "value": 31084935207
+        },
+        {
+          "year": 1986,
+          "value": 21550717070
+        },
+        {
+          "year": 1987,
+          "value": 21736912673
+        },
+        {
+          "year": 1988,
+          "value": 24006319859
+        },
+        {
+          "year": 1989,
+          "value": 28978572581
+        },
+        {
+          "year": 1990,
+          "value": 33855207638
+        },
+        {
+          "year": 1991,
+          "value": 31900153522
+        },
+        {
+          "year": 1992,
+          "value": 29527419360
+        },
+        {
+          "year": 1993,
+          "value": 26826357239
+        },
+        {
+          "year": 1994,
+          "value": 28104327343
+        },
+        {
+          "year": 1995,
+          "value": 31548753881
+        },
+        {
+          "year": 1996,
+          "value": 37993421106
+        },
+        {
+          "year": 1997,
+          "value": 40956182573
+        },
+        {
+          "year": 1998,
+          "value": 36653647183
+        },
+        {
+          "year": 1999,
+          "value": 35268008063
+        },
+        {
+          "year": 2000,
+          "value": 40938422968
+        },
+        {
+          "year": 2001,
+          "value": 42415533002
+        },
+        {
+          "year": 2002,
+          "value": 42227505945
+        },
+        {
+          "year": 2003,
+          "value": 44362023352
+        },
+        {
+          "year": 2004,
+          "value": 49216636346
+        },
+        {
+          "year": 2005,
+          "value": 56949392181
+        },
+        {
+          "year": 2006,
+          "value": 67344293072
+        },
+        {
+          "year": 2007,
+          "value": 73135920427
+        },
+        {
+          "year": 2008,
+          "value": 78954749926
+        },
+        {
+          "year": 2009,
+          "value": 51499377779
+        },
+        {
+          "year": 2010,
+          "value": 60764956840
+        },
+        {
+          "year": 2011,
+          "value": 68111187178
+        },
+        {
+          "year": 2012,
+          "value": 70688631840
+        },
+        {
+          "year": 2013,
+          "value": 81242545171
+        },
+        {
+          "year": 2014,
+          "value": 85909112733
+        },
+        {
+          "year": 2015,
+          "value": 78405535793
+        },
+        {
+          "year": 2016,
+          "value": 66041973885
+        },
+        {
+          "year": 2017,
+          "value": 75379231107
+        },
+        {
+          "year": 2018,
+          "value": 82703304395
+        },
+        {
+          "year": 2019,
+          "value": 78599509951
+        },
+        {
+          "year": 2020,
+          "value": 68010831589
+        },
+        {
+          "year": 2021,
+          "value": 84875044591
+        },
+        {
+          "year": 2022,
+          "value": 118503152779
+        },
+        {
+          "year": 2023,
+          "value": 110395119330
+        },
+        {
+          "year": 2024,
+          "value": 112715960939
+        },
+        {
+          "year": 2025,
+          "value": 113330098822
+        }
+      ],
+      "notes": "名目金額。輸入CIF・輸出FOB。2025年は確々報値。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "stat-cpi-2020-monthly",
+      "title": "2020年基準 消費者物価指数 全国 月次（小数第3位）",
+      "publisher": "総務省統計局",
+      "url": "https://www.stat.go.jp/data/cpi/1.htm",
+      "download_url": "https://www.stat.go.jp/data/cpi/2020/csv/zmi2020aa.csv",
+      "sha256": "960d55d484dd0c98ff107bd766e521cba600d75d0fa0424cfe54eea075e76b77",
+      "retrieved_at": "2026-09-22T09:55:37.499071+00:00",
+      "local_path": "raw/context/cpi-monthly-2020base.csv",
+      "notes": "2020年基準を固定。2026年は1〜8月しかなく、年平均の比較から除外。2025年基準への更新とは区別。"
+    },
+    {
+      "id": "trade-mof-products-import-annual",
+      "title": "日本の世界からの主要商品輸入・年別CSV",
+      "publisher": "財務省 関税局・税関",
+      "url": "https://www.customs.go.jp/toukei/suii/html/time.htm",
+      "download_url": "https://www.customs.go.jp/toukei/suii/html/data/d61ca.csv",
+      "sha256": "4fc0e2c09c73e4c5d92df7e232fbf3be4c2cbf434818df0926a18079310096e1",
+      "retrieved_at": "2026-09-22T09:52:22.241062+00:00",
+      "local_path": "raw/trade/mof-products-import-annual.csv",
+      "notes": "1988–2025暦年、38行、116列。鉱物性燃料の概況品コード3、金額列33（0始まり）、千円。原油・LNG・石炭などの数量・金額も原本に収録。親分類と内訳の二重計上に注意。"
+    },
+    {
+      "id": "trade-mof-world-annual",
+      "title": "日本の世界向け輸出入総額・年別CSV",
+      "publisher": "財務省 関税局・税関",
+      "url": "https://www.customs.go.jp/toukei/suii/html/time.htm",
+      "download_url": "https://www.customs.go.jp/toukei/suii/html/data/d41ca.csv",
+      "sha256": "10f4829db214e5f869c9e73fd1bc478fac4c14d7132c0a558e9196bc92981034",
+      "retrieved_at": "2026-09-22T09:52:22.125332+00:00",
+      "local_path": "raw/trade/mof-world-annual.csv",
+      "notes": "1979–2025暦年、47行、名目円、千円単位。原本公表集計表（個票ではない）。輸出FOB／輸入CIF。"
+    }
+  ],
+  "incomplete_years_excluded": [
+    {
+      "series_id": "cpi_all",
+      "year": 2026,
+      "months": 8
+    },
+    {
+      "series_id": "cpi_energy",
+      "year": 2026,
+      "months": 8
+    },
+    {
+      "series_id": "cpi_ex_rent",
+      "year": 2026,
+      "months": 8
+    }
+  ],
+  "method": {
+    "index": "100 * value / base_year_value",
+    "yoy": "100 * (value / previous_calendar_year_value - 1)",
+    "missing": "null; no interpolation; no zero filling",
+    "note": "指数化しても系列の意味は同じにならない。価格、為替、数量、品目構成、補助政策などの影響を切り分けた因果分析ではない。"
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "source_id": "industry-iip-annual-20260914",
+  "source_url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040172370&fileKind=0",
+  "source_published_at": "2026-09-14",
+  "source_sha256": "4bcaf7a01d8f6ad2603bb32df5dd7f7356ecf6df42739ab786fd5a763bca20c5",
+  "notes": [
+    "暦年の原指数。年度・四半期・季節調整済指数を混ぜていない。",
+    "生産は付加価値額ウエイトによる数量指数。名目付加価値額や売上金額ではない。",
+    "鉱工業には製造工業を含む。両者や業種階層を合算しない。",
+    "白書刊行後の2026年9月公表データ。白書掲載時点の値と異なる場合がある。"
+  ],
+  "series": [
+    {
+      "id": "iip_production_1000000000",
+      "label": "鉱工業・生産",
+      "unit": "index_2020_100",
+      "frequency": "calendar_year",
+      "geography": "Japan",
+      "seasonal_adjustment": "unadjusted",
+      "source_id": "industry-iip-annual-20260914",
+      "observations": [
+        {
+          "year": 2018,
+          "value": 114.6
+        },
+        {
+          "year": 2019,
+          "value": 111.6
+        },
+        {
+          "year": 2020,
+          "value": 100.0
+        },
+        {
+          "year": 2021,
+          "value": 105.4
+        },
+        {
+          "year": 2022,
+          "value": 105.3
+        },
+        {
+          "year": 2023,
+          "value": 103.9
+        },
+        {
+          "year": 2024,
+          "value": 101.2
+        },
+        {
+          "year": 2025,
+          "value": 100.9
+        }
+      ]
+    },
+    {
+      "id": "iip_production_1100000000",
+      "label": "製造工業・生産",
+      "unit": "index_2020_100",
+      "frequency": "calendar_year",
+      "geography": "Japan",
+      "seasonal_adjustment": "unadjusted",
+      "source_id": "industry-iip-annual-20260914",
+      "observations": [
+        {
+          "year": 2018,
+          "value": 114.7
+        },
+        {
+          "year": 2019,
+          "value": 111.6
+        },
+        {
+          "year": 2020,
+          "value": 100.0
+        },
+        {
+          "year": 2021,
+          "value": 105.4
+        },
+        {
+          "year": 2022,
+          "value": 105.3
+        },
+        {
+          "year": 2023,
+          "value": 104.0
+        },
+        {
+          "year": 2024,
+          "value": 101.2
+        },
+        {
+          "year": 2025,
+          "value": 100.9
+        }
+      ]
+    },
+    {
+      "id": "iip_shipments_1000000000",
+      "label": "鉱工業・出荷",
+      "unit": "index_2020_100",
+      "frequency": "calendar_year",
+      "geography": "Japan",
+      "seasonal_adjustment": "unadjusted",
+      "source_id": "industry-iip-annual-20260914",
+      "observations": [
+        {
+          "year": 2018,
+          "value": 114.9
+        },
+        {
+          "year": 2019,
+          "value": 112.0
+        },
+        {
+          "year": 2020,
+          "value": 100.0
+        },
+        {
+          "year": 2021,
+          "value": 104.4
+        },
+        {
+          "year": 2022,
+          "value": 103.9
+        },
+        {
+          "year": 2023,
+          "value": 103.2
+        },
+        {
+          "year": 2024,
+          "value": 99.9
+        },
+        {
+          "year": 2025,
+          "value": 99.5
+        }
+      ]
+    },
+    {
+      "id": "iip_shipments_1100000000",
+      "label": "製造工業・出荷",
+      "unit": "index_2020_100",
+      "frequency": "calendar_year",
+      "geography": "Japan",
+      "seasonal_adjustment": "unadjusted",
+      "source_id": "industry-iip-annual-20260914",
+      "observations": [
+        {
+          "year": 2018,
+          "value": 114.9
+        },
+        {
+          "year": 2019,
+          "value": 112.0
+        },
+        {
+          "year": 2020,
+          "value": 100.0
+        },
+        {
+          "year": 2021,
+          "value": 104.4
+        },
+        {
+          "year": 2022,
+          "value": 103.9
+        },
+        {
+          "year": 2023,
+          "value": 103.3
+        },
+        {
+          "year": 2024,
+          "value": 99.9
+        },
+        {
+          "year": 2025,
+          "value": 99.5
+        }
+      ]
+    }
+  ]
+}

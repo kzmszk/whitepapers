@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "created_from": "meti-whitepaper-comparison-prototype",
+  "dataset_snapshot": "2026-09-22",
+  "period_type": "calendar_year",
+  "start": 2020,
+  "end": 2025,
+  "series_ids": [
+    "fuel_imports",
+    "cpi_energy"
+  ],
+  "series_definitions": [
+    {
+      "id": "fuel_imports",
+      "source_id": "trade-mof-products-import-annual",
+      "item_code": "3",
+      "source_column": "概況品コード3・金額（0始まり33列）",
+      "unit": "千円",
+      "aggregation": "公式暦年計を使用"
+    },
+    {
+      "id": "cpi_energy",
+      "source_id": "stat-cpi-2020-monthly",
+      "item_code": "0167",
+      "unit": "2020年=100",
+      "aggregation": "各年1〜12月の月次指数の単純平均（丸め前）"
+    }
+  ],
+  "transformation": "index",
+  "base_year": 2020,
+  "formula": "100 * value / base_year_value",
+  "missing": "null; no interpolation; no zero filling",
+  "source_versions": [
+    {
+      "id": "stat-cpi-2020-monthly",
+      "title": "2020年基準 消費者物価指数 全国 月次（小数第3位）",
+      "publisher": "総務省統計局",
+      "url": "https://www.stat.go.jp/data/cpi/1.htm",
+      "download_url": "https://www.stat.go.jp/data/cpi/2020/csv/zmi2020aa.csv",
+      "sha256": "960d55d484dd0c98ff107bd766e521cba600d75d0fa0424cfe54eea075e76b77",
+      "retrieved_at": "2026-09-22T09:55:37.499071+00:00",
+      "local_path": "raw/context/cpi-monthly-2020base.csv",
+      "notes": "2020年基準を固定。2026年は1〜8月しかなく、年平均の比較から除外。2025年基準への更新とは区別。"
+    },
+    {
+      "id": "trade-mof-products-import-annual",
+      "title": "日本の世界からの主要商品輸入・年別CSV",
+      "publisher": "財務省 関税局・税関",
+      "url": "https://www.customs.go.jp/toukei/suii/html/time.htm",
+      "download_url": "https://www.customs.go.jp/toukei/suii/html/data/d61ca.csv",
+      "sha256": "4fc0e2c09c73e4c5d92df7e232fbf3be4c2cbf434818df0926a18079310096e1",
+      "retrieved_at": "2026-09-22T09:52:22.241062+00:00",
+      "local_path": "raw/trade/mof-products-import-annual.csv",
+      "notes": "1988–2025暦年、38行、116列。鉱物性燃料の概況品コード3、金額列33（0始まり）、千円。原油・LNG・石炭などの数量・金額も原本に収録。親分類と内訳の二重計上に注意。"
+    }
+  ],
+  "cpi_annual_aggregation": "Arithmetic mean of all 12 monthly indices; 2020 base; unrounded before display",
+  "display_precision": 1
+}

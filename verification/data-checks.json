@@ -1,0 +1,54 @@
+{
+  "cpi_base_2020": {
+    "cpi_all": 100.00033333333333,
+    "cpi_energy": 100.00016666666667,
+    "cpi_ex_rent": 100.00058333333334
+  },
+  "cpi_complete_calendar_years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "incomplete_years_excluded": [
+    {
+      "series_id": "cpi_all",
+      "year": 2026,
+      "months": 8
+    },
+    {
+      "series_id": "cpi_energy",
+      "year": 2026,
+      "months": 8
+    },
+    {
+      "series_id": "cpi_ex_rent",
+      "year": 2026,
+      "months": 8
+    }
+  ],
+  "cpi_months": 80,
+  "original_cpi_sha256": "960d55d484dd0c98ff107bd766e521cba600d75d0fa0424cfe54eea075e76b77",
+  "sample_2025": {
+    "cpi_all": 111.94375,
+    "cpi_energy": 123.01566666666666,
+    "cpi_ex_rent": 114.04033333333334,
+    "fuel_imports": 22144975571,
+    "exports": 110400454682,
+    "imports": 113330098822
+  },
+  "two_publishers": [
+    "総務省統計局",
+    "財務省・税関"
+  ],
+  "comparison_years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ]
+}

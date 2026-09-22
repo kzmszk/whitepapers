@@ -1,0 +1,26 @@
+{
+  "records": 700,
+  "years": 35,
+  "series": 20,
+  "range": [
+    1990,
+    2024
+  ],
+  "checks": [
+    "Workbook fiscal year and row labels verified for every series/year",
+    "TJ units verified and converted to PJ by /1000",
+    "Final consumption equals enterprise/business + households + transport for every year",
+    "Primary supply component sum equals primary supply total for every year",
+    "PDF self-sufficiency 15 values FY2010–FY2024, last value visually verified 16.3%"
+  ],
+  "source_anomalies": [
+    "e-Stat links labeled 1994年度簡易表 and 1995年度簡易表 return 詳細表 workbooks. They are preserved unchanged and extracted using row/column codes, not fixed cell addresses."
+  ],
+  "caveats": [
+    "HCV balance-table domestic production / primary supply is not the published IEA-basis self-sufficiency ratio. The latter uses a different statistical basis; use the separate published series, or obtain the official lower-calorific IEA reference workbook to reproduce.",
+    "Final consumption total includes non-energy use; do not relabel as only fuel burned.",
+    "Primary supply mix is not electricity generation mix.",
+    "Fiscal year is April through following March; calendar-year imports/CPI cannot be joined as identical periods.",
+    "Standard calorific values were updated from FY2023; consider this when comparing physical quantities across years."
+  ]
+}
